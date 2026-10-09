@@ -1,0 +1,173 @@
+{
+  "study": "retention-training-path-v1",
+  "training_launched": false,
+  "gpu_operations_launched": false,
+  "checks": [
+    {
+      "lag": 2,
+      "same_labels_masks_endpoints_bits_queries_noise": true,
+      "only_cue_position_variant": true,
+      "nested_prefix": true,
+      "one_marked_bit_and_one_loss_endpoint": true,
+      "ablation_changes_only_marked_symbol": true
+    },
+    {
+      "lag": 4,
+      "same_labels_masks_endpoints_bits_queries_noise": true,
+      "only_cue_position_variant": true,
+      "nested_prefix": true,
+      "one_marked_bit_and_one_loss_endpoint": true,
+      "ablation_changes_only_marked_symbol": true
+    },
+    {
+      "lag": 8,
+      "same_labels_masks_endpoints_bits_queries_noise": true,
+      "only_cue_position_variant": true,
+      "nested_prefix": true,
+      "one_marked_bit_and_one_loss_endpoint": true,
+      "ablation_changes_only_marked_symbol": true
+    },
+    {
+      "lag": 16,
+      "same_labels_masks_endpoints_bits_queries_noise": true,
+      "only_cue_position_variant": true,
+      "nested_prefix": true,
+      "one_marked_bit_and_one_loss_endpoint": true,
+      "ablation_changes_only_marked_symbol": true
+    },
+    {
+      "lag": 32,
+      "same_labels_masks_endpoints_bits_queries_noise": true,
+      "only_cue_position_variant": true,
+      "nested_prefix": true,
+      "one_marked_bit_and_one_loss_endpoint": true,
+      "ablation_changes_only_marked_symbol": true
+    },
+    {
+      "lag": 64,
+      "same_labels_masks_endpoints_bits_queries_noise": true,
+      "only_cue_position_variant": true,
+      "nested_prefix": true,
+      "one_marked_bit_and_one_loss_endpoint": true,
+      "ablation_changes_only_marked_symbol": true
+    }
+  ],
+  "schedule": {
+    "direct": {
+      "2": 0,
+      "4": 0,
+      "8": 0,
+      "16": 0,
+      "32": 0,
+      "64": 2400
+    },
+    "curriculum": {
+      "2": 400,
+      "4": 400,
+      "8": 400,
+      "16": 400,
+      "32": 400,
+      "64": 400
+    }
+  },
+  "exact_formula_match_to_v2_at_same_seed": true,
+  "data_counts": {
+    "validation": {
+      "generator_seed": 620001,
+      "records": 4096,
+      "positive_records": 812,
+      "query_records": 1619,
+      "actual_positive_rate": 0.1982421875,
+      "query_baseline_ap": 0.5015441630636195,
+      "query_conditioned_positive_fraction": 0.501544177532196,
+      "oracle_ap": 1.0
+    },
+    "test": {
+      "generator_seed": 630001,
+      "records": 16384,
+      "positive_records": 3352,
+      "query_records": 6561,
+      "actual_positive_rate": 0.20458984375,
+      "query_baseline_ap": 0.5108977290047249,
+      "query_conditioned_positive_fraction": 0.5108977556228638,
+      "oracle_ap": 1.0
+    },
+    "tuning_train": {
+      "generator_seed": 610901,
+      "records": 4096,
+      "positive_records": 783,
+      "query_records": 1597,
+      "actual_positive_rate": 0.191162109375,
+      "query_baseline_ap": 0.49029430181590483,
+      "query_conditioned_positive_fraction": 0.49029430747032166,
+      "oracle_ap": 1.0
+    },
+    "train_seed0": {
+      "generator_seed": 610000,
+      "records": 4096,
+      "positive_records": 804,
+      "query_records": 1621,
+      "actual_positive_rate": 0.1962890625,
+      "query_baseline_ap": 0.4959901295496607,
+      "query_conditioned_positive_fraction": 0.495990127325058,
+      "oracle_ap": 1.0,
+      "planned_record_exposures": 76800,
+      "planned_positive_exposures": 14869,
+      "planned_query_exposures": 30204
+    },
+    "train_seed1": {
+      "generator_seed": 610001,
+      "records": 4096,
+      "positive_records": 857,
+      "query_records": 1628,
+      "actual_positive_rate": 0.209228515625,
+      "query_baseline_ap": 0.5264127764127764,
+      "query_conditioned_positive_fraction": 0.5264127850532532,
+      "oracle_ap": 1.0,
+      "planned_record_exposures": 76800,
+      "planned_positive_exposures": 16181,
+      "planned_query_exposures": 30525
+    },
+    "train_seed2": {
+      "generator_seed": 610002,
+      "records": 4096,
+      "positive_records": 829,
+      "query_records": 1663,
+      "actual_positive_rate": 0.202392578125,
+      "query_baseline_ap": 0.4984966927239928,
+      "query_conditioned_positive_fraction": 0.4984966814517975,
+      "oracle_ap": 1.0,
+      "planned_record_exposures": 76800,
+      "planned_positive_exposures": 15356,
+      "planned_query_exposures": 31228
+    },
+    "train_seed3": {
+      "generator_seed": 610003,
+      "records": 4096,
+      "positive_records": 867,
+      "query_records": 1633,
+      "actual_positive_rate": 0.211669921875,
+      "query_baseline_ap": 0.5309246785058175,
+      "query_conditioned_positive_fraction": 0.5309246778488159,
+      "oracle_ap": 1.0,
+      "planned_record_exposures": 76800,
+      "planned_positive_exposures": 16322,
+      "planned_query_exposures": 30607
+    },
+    "train_seed4": {
+      "generator_seed": 610004,
+      "records": 4096,
+      "positive_records": 830,
+      "query_records": 1640,
+      "actual_positive_rate": 0.20263671875,
+      "query_baseline_ap": 0.5060975609756098,
+      "query_conditioned_positive_fraction": 0.5060975551605225,
+      "oracle_ap": 1.0,
+      "planned_record_exposures": 76800,
+      "planned_positive_exposures": 15402,
+      "planned_query_exposures": 30530
+    }
+  },
+  "paired_record_and_positive_exposure_schedule": true,
+  "status": "all CPU generator invariants passed; no model training"
+}

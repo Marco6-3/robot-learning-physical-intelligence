@@ -1,0 +1,4 @@
+{
+  "same_base_symbol_stream_outside_cue": true,
+  "interpretation": "Two algorithmic tasks share base symbol random stream; not an independent-source replication. Train validation and test seeds are distinct within each task."
+}

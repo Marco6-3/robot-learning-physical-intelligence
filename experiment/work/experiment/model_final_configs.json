@@ -1,0 +1,103 @@
+{
+  "device": "cpu",
+  "inputs": {
+    "8": {
+      "mlp": {
+        "config": {
+          "name": "mlp",
+          "input_dim": 8,
+          "width": 122,
+          "depth": 2,
+          "embed_dim": 32
+        },
+        "parameters": 19443,
+        "future_perturbation_max_abs": 0.0
+      },
+      "tcn": {
+        "config": {
+          "name": "tcn",
+          "input_dim": 8,
+          "width": 39,
+          "depth": 4,
+          "kernel_size": 3
+        },
+        "parameters": 19111,
+        "future_perturbation_max_abs": 0.0
+      },
+      "gru": {
+        "config": {
+          "name": "gru",
+          "input_dim": 8,
+          "width": 64,
+          "embed_dim": 32,
+          "depth": 1
+        },
+        "parameters": 19169,
+        "future_perturbation_max_abs": 0.0
+      },
+      "mamba": {
+        "config": {
+          "name": "mamba",
+          "input_dim": 8,
+          "width": 34,
+          "depth": 2,
+          "d_state": 8,
+          "expand": 2,
+          "d_conv": 4
+        },
+        "parameters": 19449,
+        "future_perturbation_max_abs": 0.0
+      }
+    },
+    "54": {
+      "mlp": {
+        "config": {
+          "name": "mlp",
+          "input_dim": 54,
+          "width": 122,
+          "depth": 2,
+          "embed_dim": 32
+        },
+        "parameters": 20915,
+        "future_perturbation_max_abs": 0.0
+      },
+      "tcn": {
+        "config": {
+          "name": "tcn",
+          "input_dim": 54,
+          "width": 39,
+          "depth": 4,
+          "kernel_size": 3
+        },
+        "parameters": 20905,
+        "future_perturbation_max_abs": 0.0
+      },
+      "gru": {
+        "config": {
+          "name": "gru",
+          "input_dim": 54,
+          "width": 64,
+          "embed_dim": 32,
+          "depth": 1
+        },
+        "parameters": 20641,
+        "future_perturbation_max_abs": 0.0
+      },
+      "mamba": {
+        "config": {
+          "name": "mamba",
+          "input_dim": 54,
+          "width": 34,
+          "depth": 2,
+          "d_state": 8,
+          "expand": 2,
+          "d_conv": 4
+        },
+        "parameters": 21013,
+        "future_perturbation_max_abs": 0.0
+      }
+    }
+  },
+  "note": "Final matched defaults; prior GPU timing used earlier widths and is not final-model timing.",
+  "status": "all final-config shape, causality, finite-gradient, parameter-budget checks passed"
+}

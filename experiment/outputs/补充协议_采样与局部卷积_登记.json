@@ -1,0 +1,15 @@
+{
+  "registered_at_utc": "2026-10-09T12:30:37.161253+00:00",
+  "status": "adaptive follow-up declared before new data model fitting",
+  "previous_evidence": "v1 and real results, v2 sparse short seed instability and preliminary long floor",
+  "files": {
+    "work\\experiment\\optimization_locality.py": "106dfebb119aba878668816a905aa63e5f23e90437ae5241404f9804087438c8",
+    "outputs\\补充协议_采样与局部卷积.md": "1fa6f8a504e38fc4efd85c272fc9ceaa2476411ea82685d20e1fee5dcddc7d27",
+    "work\\experiment\\models.py": "795768517710a37f35d79759c994ef2348c62da5b194c4a1ac23bfec961541fd",
+    "work\\experiment\\common.py": "c2dee533b25f1e901f0fbdf646cf352fee7282dc1702ee268f46b59d7aea13bb",
+    "work\\experiment\\cue_memory.py": "1cdf490acd280da9e844657ecd0618debe75c3d1d24e822b7588275ebeb095f0"
+  },
+  "planned_tuning_runs": 20,
+  "planned_main_runs": 100,
+  "training_launched": false
+}

@@ -1,0 +1,51 @@
+{
+  "frozen_at": "2026-10-09T11:47:32.241174+00:00",
+  "client_date": "2026-10-09",
+  "sources": [
+    {
+      "path": "work\\experiment\\analyze_synthetic.py",
+      "sha256": "e8d3b2b58ee7caafd19872903312cf439118402efeb61aa47cdc627b0296ba45"
+    },
+    {
+      "path": "work\\experiment\\common.py",
+      "sha256": "c2dee533b25f1e901f0fbdf646cf352fee7282dc1702ee268f46b59d7aea13bb"
+    },
+    {
+      "path": "work\\experiment\\freeze.py",
+      "sha256": "1a72f2fd9a7acc9b99dcca5270d1be71b5c57df7e8fcb20a99a8e6e963268a40"
+    },
+    {
+      "path": "work\\experiment\\models.py",
+      "sha256": "795768517710a37f35d79759c994ef2348c62da5b194c4a1ac23bfec961541fd"
+    },
+    {
+      "path": "work\\experiment\\synthetic.py",
+      "sha256": "317c6585e42922ec23b7475e7ef22d685417256a8a0d4403e8ef4a4b2ec53e9e"
+    },
+    {
+      "path": "work\\experiment\\test_models.py",
+      "sha256": "6f861ce9b30251fe1edfc462e62e610fef04fedd096dc1e025564dcf085e9ea6"
+    },
+    {
+      "path": "work\\experiment\\validate_final_configs.py",
+      "sha256": "b64f6d70fa04b17ea3a575b8b59c6184bddc77125d4e6f709737629a89a2e3cf"
+    },
+    {
+      "path": "work\\experiment\\validate_protocol.py",
+      "sha256": "f9c2ba82532c4dbbcda79513e83000ba2e93d48561b99773a5c81511ab06707a"
+    },
+    {
+      "path": "outputs\\实验协议.md",
+      "sha256": "78556a2ac8bdd165e4f0d898447d954a34f6d8ed92360818c069ce1fe392c41b"
+    }
+  ],
+  "environment": {
+    "python": "3.11.9",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "sklearn": "1.8.0",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "platform": "Windows-10-10.0.26200-SP0"
+  }
+}

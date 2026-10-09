@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "studies": [
+    {
+      "study": "synthetic",
+      "final_runs": 160,
+      "tuning_runs": 64,
+      "analysis_path": "work\\results\\synthetic_analysis\\analysis.json",
+      "analysis_sha256": "e6d5196082143a428e53d0affe356ad7367dcd955287d29151f11a6e13e10082"
+    },
+    {
+      "study": "cue_memory_v2",
+      "final_runs": 80,
+      "tuning_runs": 32,
+      "analysis_path": "work\\results\\cue_memory_v2_analysis\\analysis.json",
+      "analysis_sha256": "b879884d35614a88a1adca3a80d5c088a06072ba61ea614fd682c073b751fba7"
+    },
+    {
+      "study": "real",
+      "final_runs": 70,
+      "tuning_runs": 28,
+      "analysis_path": "work\\results\\real_analysis\\analysis.json",
+      "analysis_sha256": "b6d5d07ac463b2d15c573eead087f3ea7d16f6d83ef933ddb04fef3c25346f3d"
+    },
+    {
+      "study": "optimization_locality_v3",
+      "final_runs": 100,
+      "tuning_runs": 20,
+      "analysis_path": "work\\results\\optimization_locality_v3_analysis\\analysis.json",
+      "analysis_sha256": "8654a66f452a4816de79812c70bb1b8ac8e2dfe4fbd0e5e14f73aa260bc55fea"
+    },
+    {
+      "study": "retention_curriculum",
+      "final_runs": 20,
+      "tuning_runs": 8,
+      "analysis_path": "work\\results\\retention_curriculum_analysis\\analysis.json",
+      "analysis_sha256": "2069206cf1d8534184dfa73092e9a4d4a09fac928cf7d9587b069b6796c61c22"
+    }
+  ],
+  "checks": [
+    "Original protocol/training hashes and all frozen snapshots match",
+    "Real-study training source and split hashes match pretraining manifest",
+    "Three adaptive study registrations match training sources and protocols",
+    "Retention analysis matches the documented floating-point tolerance-only repair; original retained",
+    "All fixed study matrices and their independent analyses are complete"
+  ],
+  "formal_runs": 430,
+  "tuning_runs": 152,
+  "utf8_markdown_checked": [
+    "outputs\\实验协议.md",
+    "outputs\\实验结论.md",
+    "outputs\\数据与复现说明.md",
+    "outputs\\标签来源补充审计.md",
+    "outputs\\补充协议_单状态记忆.md",
+    "outputs\\补充协议_单状态记忆_时序更正前.md",
+    "outputs\\补充协议_记忆训练路径.md",
+    "outputs\\补充协议_采样与局部卷积.md",
+    "outputs\\记忆训练路径_浮点校验勘误.md"
+  ],
+  "v1_analysis_change": "AP np.dot -> np.sum of elementwise products; equivalent formula, explicit-resampling validation retained; added factorial interaction sign self-test. Original frozen code is preserved.",
+  "scope": "Provenance and completion; separate per-study analyzers check predictions, metrics and paired bootstrap."
+}

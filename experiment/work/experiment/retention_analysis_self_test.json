@@ -1,0 +1,9 @@
+{
+  "status": "all CPU analysis tests passed; no model executed",
+  "weighted_ap_cases": 200,
+  "max_abs_error_vs_explicit_record_replication": 3.3306690738754696e-16,
+  "tied_scores_and_query_masks": true,
+  "paired_null_exactly_zero": true,
+  "path_architecture_interaction_orientation": true,
+  "frozen_auxiliary_threshold_boundaries": true
+}

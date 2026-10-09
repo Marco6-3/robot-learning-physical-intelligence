@@ -1,0 +1,7 @@
+﻿hypothesis,metric,contrast,estimate,lower,upper,undefined_draws,confidence,confirmatory,criterion_supported,margin,direction
+H1,ap,"D(sparse,short,small)",0.049714291246397965,0.0064462288771959635,0.12157184440525914,0,0.9833333333333333,True,False,0.03,positive
+H1,query_ap,"D(sparse,short,small)",0.034409399542196774,0.008362299043994664,0.07155277939552615,0,0.95,False,,0.03,positive
+H2,ap,"mean_n[D(sparse,long,n)-D(sparse,short,n)]",-0.012878297165493656,-0.055126433957211986,0.023368865707326353,0,0.9833333333333333,True,False,0.03,negative
+H2,query_ap,"mean_n[D(sparse,long,n)-D(sparse,short,n)]",-0.01473615845644284,-0.044299000883633234,0.014488624808698773,0,0.95,False,,0.03,negative
+H3,ap,(sparse-dense memory difference at small N) - (same at large N),-0.048216707660470634,-0.13208274672806478,0.030496101826881,0,0.9833333333333333,True,False,0,two-sided
+H3,query_ap,(sparse-dense memory difference at small N) - (same at large N),-0.05104237293305244,-0.11474091103325325,0.002336788471007684,0,0.95,False,,0,two-sided

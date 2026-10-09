@@ -1,0 +1,66 @@
+{
+  "rate": 0.01,
+  "lag": 64,
+  "n_train": 64,
+  "model": "tcn",
+  "seed": 0,
+  "parameters": 19111,
+  "metrics": {
+    "ap": 0.4389318025459382,
+    "f1": 0.5595375722543353,
+    "prevalence": 0.00994873046875,
+    "precision": 0.4489795918367347,
+    "recall": 0.7423312883435583,
+    "brier": 0.008102445238784,
+    "tp": 242,
+    "fp": 297,
+    "fn": 84,
+    "n": 32768,
+    "threshold": 0.023802606388926506,
+    "query_ap": 0.5043544689192192,
+    "query_n": 640,
+    "key_shuffled_ap": 0.44282990659235466,
+    "key_shuffled_query_ap": 0.507961930324623
+  },
+  "training": {
+    "trace": [
+      {
+        "step": 100,
+        "train_loss": 0.006897532381117344,
+        "val_ap": 0.500747703783502
+      },
+      {
+        "step": 200,
+        "train_loss": 0.0005913922213949263,
+        "val_ap": 0.4810203256386724
+      },
+      {
+        "step": 300,
+        "train_loss": 0.0004935209872201085,
+        "val_ap": 0.47714347022898845
+      },
+      {
+        "step": 400,
+        "train_loss": 0.00018753521726466715,
+        "val_ap": 0.4752559112736593
+      }
+    ],
+    "best_val_ap": 0.500747703783502,
+    "best_step": 100,
+    "model_config": {
+      "name": "tcn",
+      "input_dim": 8,
+      "width": 39,
+      "depth": 4,
+      "kernel_size": 3
+    },
+    "parameters": 19111,
+    "seconds": 2.0807875999598764,
+    "peak_allocated_bytes": 23701504,
+    "pos_weight": 140.2413787841797,
+    "steps": 400,
+    "batch": 16,
+    "lr": 0.001,
+    "device": "cuda"
+  }
+}

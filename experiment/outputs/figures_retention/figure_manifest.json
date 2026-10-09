@@ -1,0 +1,56 @@
+{
+  "created_at_utc": "2026-10-09T13:22:04.108026+00:00",
+  "matplotlib_version": "3.10.7",
+  "font": "Microsoft YaHei",
+  "font_path": "C:\\Windows\\Fonts\\msyh.ttc",
+  "script_sha256": "8baedb5e45dcc46d63b421b138d09b9551471744b76ad86236764dbd133a8ec2",
+  "sources": [
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-09\\chatgpt-conversation-6ac8b4f3-5b08-83e8-856f-2\\work\\results\\retention_curriculum_analysis\\analysis.json",
+      "sha256": "2069206cf1d8534184dfa73092e9a4d4a09fac928cf7d9587b069b6796c61c22"
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-09\\chatgpt-conversation-6ac8b4f3-5b08-83e8-856f-2\\work\\results\\retention_curriculum_analysis\\per_seed_metrics.csv",
+      "sha256": "dd9977581f48471acd7c853951130fd114e5991f98b17bae0f1a97d75b58c8ec"
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-09\\chatgpt-conversation-6ac8b4f3-5b08-83e8-856f-2\\work\\results\\retention_curriculum_analysis\\validation_curves_per_seed.csv",
+      "sha256": "e459443f3f9f308d52cbccea12bcec71df99a9199f6e8dff460109692a62bbc8"
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-09\\chatgpt-conversation-6ac8b4f3-5b08-83e8-856f-2\\work\\results\\retention_curriculum_analysis\\validation_curves_summary.csv",
+      "sha256": "2dbc581e69e86a53610aef3bc148f9c0cdf8a93fe20f66c1168e6300f634c57e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "paired_query_ap_and_shuffle.png",
+      "sha256": "43baf59cfb1262252fbf9771df1dbda3ce0327e9092f7b65e759a81602acb86b"
+    },
+    {
+      "path": "paired_query_ap_and_shuffle.pdf",
+      "sha256": "7b4049816a6557eee60f6dac17f364d55b0f77d789f220fb9304f6d7b8ae10f9"
+    },
+    {
+      "path": "validation_curve_and_training_lag.png",
+      "sha256": "332ba9556d7930978d724c5a637a01612c9940ce7ab1ee793031f4cde47361a9"
+    },
+    {
+      "path": "validation_curve_and_training_lag.pdf",
+      "sha256": "c94cc2b30a9b96c6831474a7ac3c3af55adfed5dd0bc1003ffc6dd7e456853cb"
+    },
+    {
+      "path": "primary_training_path_effects.png",
+      "sha256": "03933123decbb6e857d49ea22aa7a6e1083e76eb04966182ecf4fe28a0c6405c"
+    },
+    {
+      "path": "primary_training_path_effects.pdf",
+      "sha256": "453dcb3e2d2c958e986eef85222bbacb214b94ea78b1836bf01b77cb327f352f"
+    }
+  ],
+  "curve_error_band": "5 training-seed standard deviations, not confidence intervals",
+  "primary_intervals": "source-computed paired bootstrap5000; two97.5% query-AP path effects",
+  "all_validation_points_lag": 64,
+  "checkpoint_test_scope": "best validation checkpoint only; final validation is not final test",
+  "visual_review_required": "Inspect PNG rendering for clipping/overlap before final delivery."
+}

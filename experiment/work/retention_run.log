@@ -1,0 +1,216 @@
+{"start": "gru", "arm": "direct", "phase": "tuning", "seed": 901, "lr": 0.001}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.001, "step": 400, "training_lag": 64, "val_ap": 0.5010444070145343, "val_query_ap": 0.5010444070145343}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.001, "step": 800, "training_lag": 64, "val_ap": 0.5280772428795701, "val_query_ap": 0.5280772428795701}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.001, "step": 1200, "training_lag": 64, "val_ap": 0.5222143368334812, "val_query_ap": 0.5222143368334812}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.001, "step": 1600, "training_lag": 64, "val_ap": 0.5040088470562458, "val_query_ap": 0.5040088470562457}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.001, "step": 2000, "training_lag": 64, "val_ap": 0.5158763114395931, "val_query_ap": 0.515876311439593}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.001, "step": 2400, "training_lag": 64, "val_ap": 0.5042761221828828, "val_query_ap": 0.5042761221828828}
+{"start": "gru", "arm": "curriculum", "phase": "tuning", "seed": 901, "lr": 0.001}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 400, "training_lag": 2, "val_ap": 0.48914822726828366, "val_query_ap": 0.5015703710996597}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 800, "training_lag": 4, "val_ap": 0.49899921503443223, "val_query_ap": 0.499009090248936}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 1200, "training_lag": 8, "val_ap": 0.6693582549753302, "val_query_ap": 0.6693582549753303}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 1600, "training_lag": 16, "val_ap": 0.9747185835591455, "val_query_ap": 0.9747185835591453}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 2000, "training_lag": 32, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"start": "gru", "arm": "direct", "phase": "tuning", "seed": 901, "lr": 0.003}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.4971915381163671, "val_query_ap": 0.49719153811636707}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.5036429931836396, "val_query_ap": 0.5036429931836395}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 0.5198171688606122, "val_query_ap": 0.5198171688606122}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 901, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"start": "gru", "arm": "curriculum", "phase": "tuning", "seed": 901, "lr": 0.003}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.5046074885529063, "val_query_ap": 0.5084177612810091}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.49664074165828664, "val_query_ap": 0.49664074165828676}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 0.4951668022922712, "val_query_ap": 0.4951668022922713}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 0.5007472219451706, "val_query_ap": 0.5007472219451707}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 0.9971722754926481, "val_query_ap": 0.9971722754926482}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"start": "gru", "arm": "direct", "phase": "final", "seed": 0, "lr": 0.003}
+{"stage_completed": "gru", "arm": "direct", "seed": 0, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.4942631602499448, "val_query_ap": 0.4942631602499449}
+{"stage_completed": "gru", "arm": "direct", "seed": 0, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 0, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 0, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 1.0000000000000002, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 0, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 1.0000000000000002, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 0, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "gru", "arm": "direct", "seed": 0, "ap": 1.0, "query_ap": 0.9999999999999999, "cue_shuffled_query_ap": 0.5001077732567888}
+{"start": "gru", "arm": "curriculum", "phase": "final", "seed": 0, "lr": 0.003}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.470903757383238, "val_query_ap": 0.4876119928009809}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.5058559551423945, "val_query_ap": 0.5058559551423946}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 0.539465122362939, "val_query_ap": 0.539465122362939}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 0.5989949050304372, "val_query_ap": 0.5989949050304372}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "gru", "arm": "curriculum", "seed": 0, "ap": 0.9999999999999999, "query_ap": 0.9999999999999999, "cue_shuffled_query_ap": 0.5051222258363924}
+{"start": "gru", "arm": "direct", "phase": "final", "seed": 1, "lr": 0.003}
+{"stage_completed": "gru", "arm": "direct", "seed": 1, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.5482645623622087, "val_query_ap": 0.5482645623622087}
+{"stage_completed": "gru", "arm": "direct", "seed": 1, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.5228795393703826, "val_query_ap": 0.5228795393703826}
+{"stage_completed": "gru", "arm": "direct", "seed": 1, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 0.5391939174132847, "val_query_ap": 0.5391939174132848}
+{"stage_completed": "gru", "arm": "direct", "seed": 1, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 1, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 1, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "gru", "arm": "direct", "seed": 1, "ap": 1.0, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5040178655508083}
+{"start": "gru", "arm": "curriculum", "phase": "final", "seed": 1, "lr": 0.003}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.4826240778746455, "val_query_ap": 0.4941990912709242}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.49554036679777724, "val_query_ap": 0.4955403667977773}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 0.5011634374047009, "val_query_ap": 0.5011634374047009}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 0.6046290165716511, "val_query_ap": 0.6046290165716512}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 0.9999999999999999, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "gru", "arm": "curriculum", "seed": 1, "ap": 1.0, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5142856751988193}
+{"start": "gru", "arm": "direct", "phase": "final", "seed": 2, "lr": 0.003}
+{"stage_completed": "gru", "arm": "direct", "seed": 2, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.5103285845812995, "val_query_ap": 0.5103285845812995}
+{"stage_completed": "gru", "arm": "direct", "seed": 2, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.5425396418420767, "val_query_ap": 0.5425396418420767}
+{"stage_completed": "gru", "arm": "direct", "seed": 2, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 0.627605515473387, "val_query_ap": 0.627605515473387}
+{"stage_completed": "gru", "arm": "direct", "seed": 2, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 2, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 2, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "gru", "arm": "direct", "seed": 2, "ap": 1.0, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5123298123828993}
+{"start": "gru", "arm": "curriculum", "phase": "final", "seed": 2, "lr": 0.003}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.48972025986250595, "val_query_ap": 0.5035064185642266}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.49664242097446726, "val_query_ap": 0.4966450856714637}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 0.5054895285319382, "val_query_ap": 0.5054895285319381}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 0.9880379480493502, "val_query_ap": 0.9880969723506586}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "gru", "arm": "curriculum", "seed": 2, "ap": 0.9999999999999999, "query_ap": 1.0, "cue_shuffled_query_ap": 0.507006875922641}
+{"start": "gru", "arm": "direct", "phase": "final", "seed": 3, "lr": 0.003}
+{"stage_completed": "gru", "arm": "direct", "seed": 3, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.5336193776712566, "val_query_ap": 0.5336193776712564}
+{"stage_completed": "gru", "arm": "direct", "seed": 3, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 3, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 3, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 3, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 1.0000000000000002, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 3, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "gru", "arm": "direct", "seed": 3, "ap": 1.0, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5090883474150336}
+{"start": "gru", "arm": "curriculum", "phase": "final", "seed": 3, "lr": 0.003}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.5061314070588447, "val_query_ap": 0.5063503698406969}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.8363337338419394, "val_query_ap": 0.8363337338419394}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0000000000000002}
+{"completed": "gru", "arm": "curriculum", "seed": 3, "ap": 0.9999999999999999, "query_ap": 0.9999999999999999, "cue_shuffled_query_ap": 0.5043292098530157}
+{"start": "gru", "arm": "direct", "phase": "final", "seed": 4, "lr": 0.003}
+{"stage_completed": "gru", "arm": "direct", "seed": 4, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.5098599213830965, "val_query_ap": 0.5098599213830965}
+{"stage_completed": "gru", "arm": "direct", "seed": 4, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.5334048576729578, "val_query_ap": 0.5334048576729579}
+{"stage_completed": "gru", "arm": "direct", "seed": 4, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 0.5095087706185425, "val_query_ap": 0.5095087706185426}
+{"stage_completed": "gru", "arm": "direct", "seed": 4, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 0.5190233291007033, "val_query_ap": 0.5190233291007034}
+{"stage_completed": "gru", "arm": "direct", "seed": 4, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "direct", "seed": 4, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "gru", "arm": "direct", "seed": 4, "ap": 1.0, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5079368974119483}
+{"start": "gru", "arm": "curriculum", "phase": "final", "seed": 4, "lr": 0.003}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.49272541656030977, "val_query_ap": 0.5020450368450371}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.4930452535831205, "val_query_ap": 0.49304525358312046}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 0.49670857760741277, "val_query_ap": 0.4967085776074128}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 0.5263758717572148, "val_query_ap": 0.5263758717572148}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "gru", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0000000000000002}
+{"completed": "gru", "arm": "curriculum", "seed": 4, "ap": 1.0, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5101597175590838}
+{"start": "mamba", "arm": "direct", "phase": "tuning", "seed": 901, "lr": 0.001}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.001, "step": 400, "training_lag": 64, "val_ap": 0.5009210697421731, "val_query_ap": 0.500921069742173}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.001, "step": 800, "training_lag": 64, "val_ap": 0.4968565271785419, "val_query_ap": 0.49715381956608956}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.001, "step": 1200, "training_lag": 64, "val_ap": 0.4900997527119726, "val_query_ap": 0.4956729478609182}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.001, "step": 1600, "training_lag": 64, "val_ap": 0.48849946476481493, "val_query_ap": 0.49380129293889985}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.001, "step": 2000, "training_lag": 64, "val_ap": 0.48197718547915674, "val_query_ap": 0.49214970687304105}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.001, "step": 2400, "training_lag": 64, "val_ap": 0.4804354728396859, "val_query_ap": 0.4913665222244595}
+{"start": "mamba", "arm": "curriculum", "phase": "tuning", "seed": 901, "lr": 0.001}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 400, "training_lag": 2, "val_ap": 0.4261534375088482, "val_query_ap": 0.5013784534122883}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 800, "training_lag": 4, "val_ap": 0.5173831429066486, "val_query_ap": 0.5173831429066486}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 1200, "training_lag": 8, "val_ap": 0.9999969685475448, "val_query_ap": 0.9999969685475448}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 1600, "training_lag": 16, "val_ap": 0.9999909111795411, "val_query_ap": 0.9999909111795411}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 2000, "training_lag": 32, "val_ap": 0.9999969741349052, "val_query_ap": 0.9999969741349053}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.001, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"start": "mamba", "arm": "direct", "phase": "tuning", "seed": 901, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.49939506074819257, "val_query_ap": 0.5029427077772598}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.5102082716270027, "val_query_ap": 0.510257750505113}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 0.526988420134525, "val_query_ap": 0.5281949402273446}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 0.5085621611961099, "val_query_ap": 0.5130648483749605}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 0.5049128701287331, "val_query_ap": 0.5118949611873527}
+{"stage_completed": "mamba", "arm": "direct", "seed": 901, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 0.5069393779056497, "val_query_ap": 0.5081979574479587}
+{"start": "mamba", "arm": "curriculum", "phase": "tuning", "seed": 901, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.3921531457377188, "val_query_ap": 0.4921789972937632}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.4305526218571888, "val_query_ap": 0.4796140730525652}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 1.0, "val_query_ap": 1.0000000000000002}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 0.9999999999999999, "val_query_ap": 1.0}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 1.0, "val_query_ap": 1.0000000000000002}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 901, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0000000000000002, "val_query_ap": 1.0}
+{"start": "mamba", "arm": "direct", "phase": "final", "seed": 0, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "direct", "seed": 0, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.5056136492390483, "val_query_ap": 0.5056136492390484}
+{"stage_completed": "mamba", "arm": "direct", "seed": 0, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.495819525224657, "val_query_ap": 0.49582028730389877}
+{"stage_completed": "mamba", "arm": "direct", "seed": 0, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 0.490172315815798, "val_query_ap": 0.490172315815798}
+{"stage_completed": "mamba", "arm": "direct", "seed": 0, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 0.49506508605643984, "val_query_ap": 0.5025986405529169}
+{"stage_completed": "mamba", "arm": "direct", "seed": 0, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 0.5013479979451575, "val_query_ap": 0.5013638717029154}
+{"stage_completed": "mamba", "arm": "direct", "seed": 0, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 0.5016845911391933, "val_query_ap": 0.5016853541615995}
+{"completed": "mamba", "arm": "direct", "seed": 0, "ap": 0.504638864062254, "query_ap": 0.504638864062254, "cue_shuffled_query_ap": 0.5054989649454098}
+{"start": "mamba", "arm": "curriculum", "phase": "final", "seed": 0, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.43267641027478143, "val_query_ap": 0.49746725711987805}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.44084730518851867, "val_query_ap": 0.48823096945349176}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 0.48506021748507067, "val_query_ap": 0.48506021748507067}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 0.48486752288370644, "val_query_ap": 0.4848675228837065}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 0.48868267229914725, "val_query_ap": 0.48868267229914714}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 0, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 0.48595621378612003, "val_query_ap": 0.48595621378612003}
+{"completed": "mamba", "arm": "curriculum", "seed": 0, "ap": 0.5021235824722743, "query_ap": 0.5021235824722742, "cue_shuffled_query_ap": 0.5020108214644584}
+{"start": "mamba", "arm": "direct", "phase": "final", "seed": 1, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "direct", "seed": 1, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.5135148143486048, "val_query_ap": 0.5135248726794122}
+{"stage_completed": "mamba", "arm": "direct", "seed": 1, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.4966085471182624, "val_query_ap": 0.5022394476317025}
+{"stage_completed": "mamba", "arm": "direct", "seed": 1, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 0.5098848951827517, "val_query_ap": 0.5104284496971665}
+{"stage_completed": "mamba", "arm": "direct", "seed": 1, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 0.5095238638999819, "val_query_ap": 0.5113318095877456}
+{"stage_completed": "mamba", "arm": "direct", "seed": 1, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 0.49069354466792364, "val_query_ap": 0.4940860365039443}
+{"stage_completed": "mamba", "arm": "direct", "seed": 1, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 0.5029679329454315, "val_query_ap": 0.5090264206196635}
+{"completed": "mamba", "arm": "direct", "seed": 1, "ap": 0.5071966499248006, "query_ap": 0.5071968587773219, "cue_shuffled_query_ap": 0.5073769011891051}
+{"start": "mamba", "arm": "curriculum", "phase": "final", "seed": 1, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.4324319072540467, "val_query_ap": 0.4955244390812703}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.37739560468992955, "val_query_ap": 0.4814840517933959}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 0.5817213633447651, "val_query_ap": 0.5817213633447651}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 0.9976545905649199, "val_query_ap": 0.99765459056492}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 0.999998485206527, "val_query_ap": 0.9999984852065268}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 1, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0000000000000002}
+{"completed": "mamba", "arm": "curriculum", "seed": 1, "ap": 1.0, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5002213331472461}
+{"start": "mamba", "arm": "direct", "phase": "final", "seed": 2, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "direct", "seed": 2, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.49628200205860284, "val_query_ap": 0.5003679300597721}
+{"stage_completed": "mamba", "arm": "direct", "seed": 2, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.5048651267014604, "val_query_ap": 0.5049798881465819}
+{"stage_completed": "mamba", "arm": "direct", "seed": 2, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 0.5901600091346197, "val_query_ap": 0.590378205703155}
+{"stage_completed": "mamba", "arm": "direct", "seed": 2, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0000000000000002}
+{"stage_completed": "mamba", "arm": "direct", "seed": 2, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 0.9999999999999999}
+{"stage_completed": "mamba", "arm": "direct", "seed": 2, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "mamba", "arm": "direct", "seed": 2, "ap": 0.9999935530313518, "query_ap": 0.9999949721074267, "cue_shuffled_query_ap": 0.5101315366456627}
+{"start": "mamba", "arm": "curriculum", "phase": "final", "seed": 2, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.35813080712658146, "val_query_ap": 0.4877992498084069}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.5068414494563709, "val_query_ap": 0.5072152961837405}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 0.9998802755880565, "val_query_ap": 0.9998802755880566}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 0.9995656295140524, "val_query_ap": 0.9995656295140523}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 1.0, "val_query_ap": 0.9999999999999999}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 2, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "mamba", "arm": "curriculum", "seed": 2, "ap": 0.9999999999999999, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5049457314714025}
+{"start": "mamba", "arm": "direct", "phase": "final", "seed": 3, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "direct", "seed": 3, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.5317437011141584, "val_query_ap": 0.5320641740315313}
+{"stage_completed": "mamba", "arm": "direct", "seed": 3, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.5186615070285033, "val_query_ap": 0.5186615070285034}
+{"stage_completed": "mamba", "arm": "direct", "seed": 3, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "mamba", "arm": "direct", "seed": 3, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 0.9999999999999999, "val_query_ap": 1.0}
+{"stage_completed": "mamba", "arm": "direct", "seed": 3, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "mamba", "arm": "direct", "seed": 3, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0000000000000002}
+{"completed": "mamba", "arm": "direct", "seed": 3, "ap": 0.9999998221053334, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5119658688671586}
+{"start": "mamba", "arm": "curriculum", "phase": "final", "seed": 3, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.4459647100427243, "val_query_ap": 0.49136973859778776}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.4745467320658241, "val_query_ap": 0.5120666136342173}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 0.9995025527754249, "val_query_ap": 0.9995025527754249}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 3, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 1.0}
+{"completed": "mamba", "arm": "curriculum", "seed": 3, "ap": 0.9999999999999999, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5057635383384189}
+{"start": "mamba", "arm": "direct", "phase": "final", "seed": 4, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "direct", "seed": 4, "lr": 0.003, "step": 400, "training_lag": 64, "val_ap": 0.514611658302002, "val_query_ap": 0.5146143423870485}
+{"stage_completed": "mamba", "arm": "direct", "seed": 4, "lr": 0.003, "step": 800, "training_lag": 64, "val_ap": 0.5160928749321537, "val_query_ap": 0.5181839164705628}
+{"stage_completed": "mamba", "arm": "direct", "seed": 4, "lr": 0.003, "step": 1200, "training_lag": 64, "val_ap": 0.5017359914714576, "val_query_ap": 0.5042437937246356}
+{"stage_completed": "mamba", "arm": "direct", "seed": 4, "lr": 0.003, "step": 1600, "training_lag": 64, "val_ap": 0.5069033688721749, "val_query_ap": 0.5103292037915407}
+{"stage_completed": "mamba", "arm": "direct", "seed": 4, "lr": 0.003, "step": 2000, "training_lag": 64, "val_ap": 0.4892201877909968, "val_query_ap": 0.49682609054983595}
+{"stage_completed": "mamba", "arm": "direct", "seed": 4, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 0.5121239303055207, "val_query_ap": 0.5169652837298723}
+{"completed": "mamba", "arm": "direct", "seed": 4, "ap": 0.5262120634586392, "query_ap": 0.5262122494326056, "cue_shuffled_query_ap": 0.5260943519074422}
+{"start": "mamba", "arm": "curriculum", "phase": "final", "seed": 4, "lr": 0.003}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 400, "training_lag": 2, "val_ap": 0.4310509099849913, "val_query_ap": 0.4923344709288907}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 800, "training_lag": 4, "val_ap": 0.5826962894509933, "val_query_ap": 0.5826962894509934}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 1200, "training_lag": 8, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 1600, "training_lag": 16, "val_ap": 1.0, "val_query_ap": 1.0000000000000002}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 2000, "training_lag": 32, "val_ap": 1.0, "val_query_ap": 1.0}
+{"stage_completed": "mamba", "arm": "curriculum", "seed": 4, "lr": 0.003, "step": 2400, "training_lag": 64, "val_ap": 1.0, "val_query_ap": 0.9999999999999999}
+{"completed": "mamba", "arm": "curriculum", "seed": 4, "ap": 1.0, "query_ap": 1.0, "cue_shuffled_query_ap": 0.5118854305750666}

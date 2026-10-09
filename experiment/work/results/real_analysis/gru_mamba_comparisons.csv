@@ -1,0 +1,7 @@
+﻿configuration,scope,gru_ap,mamba_ap,gru_minus_mamba_ap,lower,upper,undefined_draws,confidence,confirmatory
+held_trial_low,"fixed object(s), trial-level conditional uncertainty",0.6149467365984453,0.551445969831435,0.06350076676701033,-0.037414276804025356,0.15229062993144363,0,0.95,False
+held_trial_full,"fixed object(s), trial-level conditional uncertainty",0.5397528126828117,0.5505810638201953,-0.010828251137383615,-0.12793123275466806,0.08221394291964333,0,0.95,False
+loo_SpoolSolder,"fixed object(s), trial-level conditional uncertainty",0.2907873055046494,0.32446379072617304,-0.033676485221523667,-0.12337734706652022,0.053069087158040595,0,0.95,False
+loo_brush,"fixed object(s), trial-level conditional uncertainty",0.3117151585345731,0.31061784959087224,0.0010973089437008587,-0.11602092634856362,0.11932556596168983,0,0.95,False
+loo_screwDriver,"fixed object(s), trial-level conditional uncertainty",0.5087377071148138,0.44631401069241133,0.062423696422402475,0.002292630290915655,0.1315698595354352,0,0.95,False
+loo_macro_three_fixed_objects,equal-weight average of these three fixed objects; not new-object population inference,0.37041339038467874,0.3604652170031522,0.009948173381526537,-0.041612160647780616,0.06115840423728659,0,0.95,False

@@ -1,0 +1,15 @@
+{
+  "registered_at_utc": "2026-10-09T12:28:32.934091+00:00",
+  "study": "retention-training-path-v1",
+  "protocol_sha256": "90c3df11727ee6f7b8245b1bc1e10f45dd4287526af3dc7f1ba5a41cbe8f68c7",
+  "script_sha256": "019e749db3044348b528ce5dcad36951f8b363f55e2eb842c2e744c002bee595",
+  "models_sha256": "795768517710a37f35d79759c994ef2348c62da5b194c4a1ac23bfec961541fd",
+  "common_sha256": "c2dee533b25f1e901f0fbdf646cf352fee7282dc1702ee268f46b59d7aea13bb",
+  "precheck_sha256": "fe8fa5775ed219f2795b8cdf6160b24d47ccadcb47d4100fd1eb88247b4a7248",
+  "planned_tuning_runs": 8,
+  "planned_final_runs": 20,
+  "training_launched": false,
+  "context": "New mechanism study proposed after prior v1/v2 results and long-lag training-floor evidence were available; not an amendment claimed to precede those findings.",
+  "fresh_test_generator_seed": 630001,
+  "lr_selection": "one LR per model shared by both arms, selected by mean best long-lag validation AP across the two tuning arms"
+}

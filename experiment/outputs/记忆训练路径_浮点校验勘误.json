@@ -1,0 +1,139 @@
+{
+  "corrected_at_utc": "2026-10-09T13:06:09.776305+00:00",
+  "authorization": "Root explicitly authorized only floating-point validity tolerance repair and archival of old/new hashes; no user reconfirmation required.",
+  "original_analysis_script": "work\\experiment\\analyze_retention_curriculum_before_fp_tolerance.py",
+  "original_sha256": "699dd71533d96b3ffbe9f77b36ef9dbc0524c652ccb9b4ce54f5b01136c7458e",
+  "corrected_analysis_script": "work\\experiment\\analyze_retention_curriculum.py",
+  "corrected_sha256": "86a15a6017c053999ee308f40da4e3f8070f23be49a85ba7d3527400aa622241",
+  "change": "Only validation AP legal-range check changed from [0,1] to [-1e-12,1+1e-12].",
+  "tolerance": 1e-12,
+  "affected_entries_observed_at_correction": [
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed0_lr0.003\\result.json",
+      "step": 2300,
+      "metric": "val_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed2_lr0.003\\result.json",
+      "step": 1700,
+      "metric": "val_ap",
+      "raw_value": 1.0000000000000004,
+      "upper_overshoot": 4.440892098500626e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed2_lr0.003\\result.json",
+      "step": 2100,
+      "metric": "val_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed2_lr0.003\\result.json",
+      "step": 2300,
+      "metric": "val_query_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed3_lr0.003\\result.json",
+      "step": 2100,
+      "metric": "val_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed3_lr0.003\\result.json",
+      "step": 2400,
+      "metric": "val_query_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed4_lr0.003\\result.json",
+      "step": 2400,
+      "metric": "val_query_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\curriculum\\tune_seed901_lr0.003\\result.json",
+      "step": 2300,
+      "metric": "val_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\direct\\final_seed0_lr0.003\\result.json",
+      "step": 1600,
+      "metric": "val_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\direct\\final_seed0_lr0.003\\result.json",
+      "step": 2000,
+      "metric": "val_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\direct\\final_seed0_lr0.003\\result.json",
+      "step": 2200,
+      "metric": "val_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    },
+    {
+      "result_path": "work\\results\\retention_curriculum\\gru\\direct\\final_seed3_lr0.003\\result.json",
+      "step": 2000,
+      "metric": "val_ap",
+      "raw_value": 1.0000000000000002,
+      "upper_overshoot": 2.220446049250313e-16,
+      "lower_undershoot": 0
+    }
+  ],
+  "max_observed_upper_overshoot": 4.440892098500626e-16,
+  "max_observed_lower_undershoot": 0,
+  "training_still_running_at_correction": true,
+  "no_changes_to": [
+    "raw data",
+    "saved metric values",
+    "predictions",
+    "checkpoint selection",
+    "learning-rate selection",
+    "bootstrap",
+    "contrasts",
+    "confidence levels",
+    "training code",
+    "models",
+    "frozen training protocol",
+    "original statistics registration"
+  ],
+  "clipping_applied": false,
+  "source_diff": [
+    "--- analyze_retention_curriculum_before_fp_tolerance.py",
+    "+++ analyze_retention_curriculum.py",
+    "@@ -64,7 +64,7 @@",
+    "             raise ValueError(\"Training or validation lag differs from declared schedule\")",
+    "         if row[\"record_exposures\"] != row[\"step\"]*32:",
+    "             raise ValueError(\"Recorded sample exposures differ from update count\")",
+    "-        if not all(np.isfinite(row[m]) and 0 <= row[m] <= 1 for m in (\"val_ap\", \"val_query_ap\")):",
+    "+        if not all(np.isfinite(row[m]) and -1e-12 <= row[m] <= 1+1e-12 for m in (\"val_ap\", \"val_query_ap\")):",
+    "             raise ValueError(\"Invalid validation AP\")",
+    "     best = max(trace, key=lambda row: row[\"val_ap\"])",
+    "     if best[\"step\"] != training[\"best_step\"] or best[\"val_ap\"] != training[\"best_val_ap\"]:"
+  ]
+}

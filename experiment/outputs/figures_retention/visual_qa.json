@@ -1,0 +1,21 @@
+{
+  "reviewed_at_utc": "2026-10-09T13:24:24Z",
+  "method": "Opened and visually inspected each of the three final PNGs using the image-view tool.",
+  "reviewed_pngs": [
+    {"file": "paired_query_ap_and_shuffle.png", "width": 2957, "height": 1558, "passed": true},
+    {"file": "validation_curve_and_training_lag.png", "width": 3119, "height": 1945, "passed": true},
+    {"file": "primary_training_path_effects.png", "width": 2532, "height": 1204, "passed": true}
+  ],
+  "checks": {
+    "chinese_font_legible": true,
+    "titles_labels_footnotes_not_clipped": true,
+    "no_material_text_overlap": true,
+    "paired_seed_and_shuffle_controls_visible": true,
+    "training_lag_schedule_separate_from_fixed_lag64_validation": true,
+    "seed_standard_deviation_not_labeled_as_confidence_interval": true,
+    "primary_975_intervals_and_5000_draws_labeled": true
+  },
+  "note": "Symmetric mean-plus/minus-SD bands may exceed the bounded metric range; this does not indicate out-of-range observed AUPRC. Raw SD values remain in source tables.",
+  "plot_repairs_needed": false,
+  "pdf_scope": "PDFs generated from the identical Matplotlib figures; visual inspection was performed on PNGs, not a separate PDF rasterization."
+}

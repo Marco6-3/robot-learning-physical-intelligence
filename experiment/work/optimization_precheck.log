@@ -1,0 +1,112 @@
+{
+  "training_launched": false,
+  "models": {
+    "gru": {
+      "parameters": 19169,
+      "config": {
+        "name": "gru",
+        "input_dim": 8,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1
+      },
+      "causal": true,
+      "finite_gradients": true
+    },
+    "gru_conv1": {
+      "parameters": 19233,
+      "config": {
+        "name": "gru_conv1",
+        "input_dim": 8,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1,
+        "causal_depthwise_kernel": 1,
+        "activation": "SiLU",
+        "convolution_position": "after input projection, before GRU"
+      },
+      "causal": true,
+      "finite_gradients": true
+    },
+    "gru_conv4": {
+      "parameters": 19329,
+      "config": {
+        "name": "gru_conv4",
+        "input_dim": 8,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1,
+        "causal_depthwise_kernel": 4,
+        "activation": "SiLU",
+        "convolution_position": "after input projection, before GRU"
+      },
+      "causal": true,
+      "finite_gradients": true
+    },
+    "mamba_conv4": {
+      "parameters": 19449,
+      "config": {
+        "name": "mamba_conv4",
+        "input_dim": 8,
+        "width": 34,
+        "depth": 2,
+        "d_state": 8,
+        "expand": 2,
+        "d_conv": 4
+      },
+      "causal": true,
+      "finite_gradients": true
+    },
+    "mamba_conv1": {
+      "parameters": 19041,
+      "config": {
+        "name": "mamba_conv1",
+        "input_dim": 8,
+        "width": 34,
+        "depth": 2,
+        "d_state": 8,
+        "expand": 2,
+        "d_conv": 1
+      },
+      "causal": true,
+      "finite_gradients": true
+    }
+  },
+  "checks": [
+    "all common-shaped parameters explicitly paired",
+    "same variant/seed has identical initial state",
+    "no future-input leakage",
+    "balanced batches exactly16/16",
+    "same empirical risk and pre-clipping gradient expectation"
+  ],
+  "data": {
+    "train0": {
+      "n": 4096,
+      "seed": 510000,
+      "positives": 47,
+      "queries": 88,
+      "query_only_ap": 0.5340909090909091
+    },
+    "tune": {
+      "n": 4096,
+      "seed": 510901,
+      "positives": 50,
+      "queries": 88,
+      "query_only_ap": 0.5681818181818182
+    },
+    "validation": {
+      "n": 8192,
+      "seed": 520001,
+      "positives": 71,
+      "queries": 155,
+      "query_only_ap": 0.45806451612903226
+    },
+    "test": {
+      "n": 65536,
+      "seed": 530001,
+      "positives": 671,
+      "queries": 1316,
+      "query_only_ap": 0.5098784194528876
+    }
+  }
+}

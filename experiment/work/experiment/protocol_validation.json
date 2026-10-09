@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "rate": 0.01,
+      "lag": 2,
+      "test_prevalence": 0.0091552734375,
+      "oracle_ap": 1.0,
+      "query_only_ap": 0.46875,
+      "query_count": 640,
+      "positive_count": 300
+    },
+    {
+      "rate": 0.01,
+      "lag": 64,
+      "test_prevalence": 0.00994873046875,
+      "oracle_ap": 1.0,
+      "query_only_ap": 0.509375,
+      "query_count": 640,
+      "positive_count": 326
+    },
+    {
+      "rate": 0.2,
+      "lag": 2,
+      "test_prevalence": 0.202392578125,
+      "oracle_ap": 1.0,
+      "query_only_ap": 0.5034922563012451,
+      "query_count": 13172,
+      "positive_count": 6632
+    },
+    {
+      "rate": 0.2,
+      "lag": 64,
+      "test_prevalence": 0.202056884765625,
+      "oracle_ap": 1.0,
+      "query_only_ap": 0.5026571515335561,
+      "query_count": 13172,
+      "positive_count": 6621
+    }
+  ],
+  "parameters": {
+    "8": {
+      "mlp": 19443,
+      "tcn": 19111,
+      "gru": 19169,
+      "mamba": 19449
+    },
+    "54": {
+      "mlp": 20915,
+      "tcn": 20905,
+      "gru": 20641,
+      "mamba": 21013
+    }
+  },
+  "nested_subsets": true,
+  "paired_density": true,
+  "no_test_metrics_from_learned_models": true
+}

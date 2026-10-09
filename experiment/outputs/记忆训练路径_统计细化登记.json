@@ -1,0 +1,33 @@
+{
+  "registered_at_utc": "2026-10-09T12:37:42Z",
+  "study": "retention-training-path-v1",
+  "purpose": "训练前统计细化；不更改已经冻结的训练协议、生成器、模型、学习率选择、预算或成功标准。",
+  "analysis_script": "work/experiment/analyze_retention_curriculum.py",
+  "analysis_script_sha256": "699dd71533d96b3ffbe9f77b36ef9dbc0524c652ccb9b4ce54f5b01136c7458e",
+  "frozen_training_protocol_sha256": "90c3df11727ee6f7b8245b1bc1e10f45dd4287526af3dc7f1ba5a41cbe8f68c7",
+  "bootstrap_draws": 5000,
+  "bootstrap_seed": 20261012,
+  "resampling": "配对的训练种子与独立测试记录交叉重采样；同一draw的记录和种子权重在模型、路径间共享。",
+  "primary_metric": "lag64测试集query条件AUPRC",
+  "primary_family": [
+    {"model": "gru", "contrast": "curriculum_minus_direct", "marginal_confidence": 0.975},
+    {"model": "mamba", "contrast": "curriculum_minus_direct", "marginal_confidence": 0.975}
+  ],
+  "multiplicity": "两项主比较采用Bonferroni名义家族覆盖率95%；各百分位区间97.5%，有限样本覆盖率仍为近似。",
+  "descriptive_only": ["全记录AUPRC", "cue-shuffled结果及下降量", "模型胜负", "路径与架构交互", "各条件均值区间"],
+  "descriptive_confidence": 0.95,
+  "best_vs_final_reporting": "最佳检查点的测试指标；最佳与最终检查点的验证指标和全部24点验证曲线。最终检查点测试预测未由冻结训练协议生成，不用最终验证值替代。",
+  "auxiliary_success_unchanged": {"query_ap_greater_than": 0.90, "cue_shuffle_query_ap_drop_greater_than": 0.30, "stable_success_requires_all_five_seeds": true},
+  "timing_evidence": {
+    "parent_instruction": "本次统计细化被主控明确安排在retention训练前。",
+    "default_training_output_directory_exists_at_check": false,
+    "default_training_output_directory": "work/results/retention_curriculum",
+    "retention_training_or_learned_predictions_executed_or_inspected_by_this_agent": false,
+    "process_inventory": "CIM进程查询不可访问；未把进程状态表述为已验证。"
+  },
+  "limitations": [
+    "区间条件于已选共享学习率、固定验证集、检查点选择、模型规模及训练预算；bootstrap不重新执行这些选择。",
+    "五个训练种子对训练过程尾部估计有限。",
+    "该新机制研究在旧v1/v2结果已可见后提出；不伪称原实验盲态预注册。"
+  ]
+}

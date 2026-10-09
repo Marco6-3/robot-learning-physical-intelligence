@@ -1,0 +1,11 @@
+﻿contrast,sampler,metric,estimate,lower,upper,undefined_draws,confidence,equivalence_margin,equivalence_supported,primary
+Mamba conv4 - GRU,uniform,ap,0.11167804898191325,0.008412879954974285,0.21712250402983904,0,0.9,0.03,False,False
+Mamba conv4 - GRU,uniform,ap,0.11167804898191325,-0.009504172770535195,0.2378225376646784,0,0.95,0.03,False,False
+Mamba conv4 - GRU,uniform,query_ap,0.12356341954458183,0.01829759559079888,0.23084972214822735,0,0.9,0.03,False,False
+Mamba conv4 - GRU,uniform,query_ap,0.12356341954458183,0.0017876684654369237,0.25295497874953016,0,0.95,0.03,False,False
+Mamba conv4 - GRU,balanced,ap,-0.10080891120215885,-0.19417509113183978,-0.026993557072782358,0,0.9,0.03,False,False
+Mamba conv4 - GRU,balanced,ap,-0.10080891120215885,-0.21548505571942259,-0.018840814053053916,0,0.95,0.03,False,False
+Mamba conv4 - GRU,balanced,query_ap,-0.09735693771623577,-0.1908582113930257,-0.022488909552722473,0,0.9,0.03,False,False
+Mamba conv4 - GRU,balanced,query_ap,-0.09735693771623577,-0.21193680443741286,-0.015399876305670267,0,0.95,0.03,False,False
+(Mamba conv4 - GRU) uniform - (Mamba conv4 - GRU) balanced,,ap,0.2124869601840721,0.09141468256522729,0.3267905446525242,0,0.95,,,False
+(Mamba conv4 - GRU) uniform - (Mamba conv4 - GRU) balanced,,query_ap,0.2209203572608176,0.09791211137397425,0.3371762320094583,0,0.95,,,False

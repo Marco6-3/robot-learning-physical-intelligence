@@ -1,0 +1,19 @@
+{
+  "registered_at_utc": "2026-10-09T11:52:52.009700+00:00",
+  "task": "single-cue-one-bit-memory-v2",
+  "protocol_sha256": "a553d56619133f15b01fadfa03ed0a7a2b775affbcb031c4eb0ec069c5ada2a5",
+  "generator_and_run_script_sha256": "1cdf490acd280da9e844657ecd0618debe75c3d1d24e822b7588275ebeb095f0",
+  "models_sha256": "795768517710a37f35d79759c994ef2348c62da5b194c4a1ac23bfec961541fd",
+  "common_sha256_at_registration": "c2dee533b25f1e901f0fbdf646cf352fee7282dc1702ee268f46b59d7aea13bb",
+  "precheck_sha256": "7045c757761ae947bf3f9313ae1bba2e9d7224acef0e51551323589f3d5d5ea2",
+  "reason": "Identifiability audit: v1 long lag also requires dense multi-bit history; v2 holds relevant memory capacity at one bit.",
+  "results_visible_when_amendment_was_requested": "Root specified v2 before inspecting target-model rankings; root had seen only v1 MLP outputs at the design request.",
+  "training_launched": false,
+  "timing_correction_at_utc": "2026-10-09T11:54:01.036156+00:00",
+  "initial_registration_sha256": "7cee0b992b0db64d6da9bfe5e87c68cf2411072da76af4c76f7ecfdd8ccba54e",
+  "initial_protocol_sha256": "ca266e619a5474b61ff5e09841a46874d5819da0ca9a54312f19d8b43011ef65",
+  "results_visible_before_file_freeze": "After the detailed v2 design request but before file completion, root inspected partial v1 short-lag GRU seed4 and Mamba seeds0/1 outputs.",
+  "timing_correction": "The initial wording did not distinguish design-request timing from file-freeze timing. Initial protocol, registration and hash are preserved. V2 has not trained; no test, hyperparameter, dataset size or planned run count changed on seeing these values. This is a separately specified mechanism supplement, not part of the original v1 preregistration.",
+  "training_design_changed": false,
+  "planned_total_training_runs": 112
+}

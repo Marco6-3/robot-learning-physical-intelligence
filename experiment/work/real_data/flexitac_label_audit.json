@@ -1,0 +1,209 @@
+{
+  "dataset": "https://huggingface.co/datasets/Tna001/tactile_test_tube_pyflexitac",
+  "license_current_card": "apache-2.0",
+  "current_revision": "ebd3c711d678aa18bfc7f6a0a1e894104c8c1ea4",
+  "cached_revision": "ebd3c711d678aa18bfc7f6a0a1e894104c8c1ea4",
+  "revisions_match": true,
+  "metadata_episodes": 64,
+  "metadata_frames": 75041,
+  "metadata_hz": 30,
+  "metadata_features": [
+    "action",
+    "observation.state",
+    "observation.images.top",
+    "observation.tactile.primary",
+    "timestamp",
+    "frame_index",
+    "episode_index",
+    "index",
+    "task_index"
+  ],
+  "cached_columns_union": [
+    "action",
+    "episode_index",
+    "frame_index",
+    "index",
+    "observation.state",
+    "observation.tactile.primary",
+    "task_index",
+    "timestamp"
+  ],
+  "cached_total_rows": 75041,
+  "cached_episodes_count": 64,
+  "cached_dt_quantiles_s": [
+    0.03333282470703125,
+    0.03333282470703125,
+    0.033336639404296875
+  ],
+  "cached_files": [
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-000.parquet",
+      "bytes": 467022,
+      "sha256": "739b5cc5301534c6c0e06546c310c5882daf0b047cd7c8298353ae739c9edade",
+      "rows": 7083,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-001.parquet",
+      "bytes": 284238,
+      "sha256": "81687c6b4a447d40d9aa82046ea65e39409ef7851c7c44e646e32ede662de39d",
+      "rows": 4246,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-002.parquet",
+      "bytes": 499636,
+      "sha256": "b6a6e447b2b693caea3dcada7d85c7c6bb0e3eba46109e15e22048e2cf193823",
+      "rows": 7039,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-003.parquet",
+      "bytes": 1467470,
+      "sha256": "001c9434c0047a34f4fb65add4867f303c0ec16e29ff27a4d27419161bc57236",
+      "rows": 20755,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-004.parquet",
+      "bytes": 885689,
+      "sha256": "ed817bd7f653b6567a3b08a9857bdbf8d9683541ae8821221dbbb50d9a602375",
+      "rows": 12647,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-005.parquet",
+      "bytes": 374090,
+      "sha256": "bf57a954394a9d1f59bc50c19fb9e18af7c682575594668976288576a9ebaf4c",
+      "rows": 5670,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-006.parquet",
+      "bytes": 311609,
+      "sha256": "1524b7d99c412334e2642965fa55fb4e88907f00d3f374b636dfae1dd4446eb0",
+      "rows": 4614,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-007.parquet",
+      "bytes": 574133,
+      "sha256": "b6ba5b5fe2ecb0995c91da13b2f132511295039eab388330b240f243c2baf458",
+      "rows": 8003,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-008.parquet",
+      "bytes": 80431,
+      "sha256": "9fb2be26c61f497a62d353631279bf431b5cb372e0a6740f4950899156efc891",
+      "rows": 1194,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-06\\https-github-com-marco6-3-icra2028\\work\\leflexitac\\file-009.parquet",
+      "bytes": 267540,
+      "sha256": "6e5e90a1517c1844d6c691bcc1d86fd1baa886b257a567e8d1974b056cdf2747",
+      "rows": 3790,
+      "columns": [
+        "action",
+        "observation.state",
+        "observation.tactile.primary",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    }
+  ],
+  "independent_contact_or_slip_label_present_in_schema": false,
+  "decision": "Not eligible as independent contact/slip onset or success validation without new independently sourced annotations.",
+  "reason": [
+    "Published features and actual cached parquet schemas contain tactile, action, state, timestamps and indexes only; no slip, contact, force, failure or success labels.",
+    "Thresholding the tactile input to create ground truth measures recovery of a chosen rule; it cannot validate an independent physical event.",
+    "Future joint-action prediction is possible but changes the event-detection question; does not substitute for slip/success labels.",
+    "30 Hz gives about 3 frames per 100 ms; metadata do not establish native tactile response latency.",
+    "The cached prior project is read-only; this audit creates new artifacts only in the present task."
+  ]
+}

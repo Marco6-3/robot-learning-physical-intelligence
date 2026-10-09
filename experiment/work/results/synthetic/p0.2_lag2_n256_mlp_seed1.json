@@ -1,0 +1,66 @@
+{
+  "rate": 0.2,
+  "lag": 2,
+  "n_train": 256,
+  "model": "mlp",
+  "seed": 1,
+  "parameters": 19443,
+  "metrics": {
+    "ap": 0.5009930281108934,
+    "f1": 0.6697975054284704,
+    "prevalence": 0.202392578125,
+    "precision": 0.5035304836382962,
+    "recall": 1.0,
+    "brier": 0.13708887285167395,
+    "tp": 6632,
+    "fp": 6539,
+    "fn": 0,
+    "n": 32768,
+    "threshold": 0.6098164319992065,
+    "query_ap": 0.5009930281108934,
+    "query_n": 13172,
+    "key_shuffled_ap": 0.5036976119922837,
+    "key_shuffled_query_ap": 0.5036976119922838
+  },
+  "training": {
+    "trace": [
+      {
+        "step": 100,
+        "train_loss": 0.516228973865509,
+        "val_ap": 0.5032621689814495
+      },
+      {
+        "step": 200,
+        "train_loss": 0.5556647777557373,
+        "val_ap": 0.4979459955429297
+      },
+      {
+        "step": 300,
+        "train_loss": 0.5005522966384888,
+        "val_ap": 0.48991312345089866
+      },
+      {
+        "step": 400,
+        "train_loss": 0.4533073306083679,
+        "val_ap": 0.4999456837945083
+      }
+    ],
+    "best_val_ap": 0.5032621689814495,
+    "best_step": 100,
+    "model_config": {
+      "name": "mlp",
+      "input_dim": 8,
+      "width": 122,
+      "depth": 2,
+      "embed_dim": 32
+    },
+    "parameters": 19443,
+    "seconds": 1.2636857000179589,
+    "peak_allocated_bytes": 24989184,
+    "pos_weight": 3.9408926963806152,
+    "steps": 400,
+    "batch": 16,
+    "lr": 0.001,
+    "device": "cuda"
+  }
+}

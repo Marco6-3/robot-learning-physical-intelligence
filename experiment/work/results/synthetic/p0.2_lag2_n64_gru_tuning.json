@@ -1,0 +1,87 @@
+{
+  "selected_lr": 0.001,
+  "trials": [
+    {
+      "lr": 0.001,
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.2111799120903015,
+          "val_ap": 0.9998698847003094
+        },
+        {
+          "step": 200,
+          "train_loss": 0.013478673063218594,
+          "val_ap": 1.0
+        },
+        {
+          "step": 300,
+          "train_loss": 0.005052207503467798,
+          "val_ap": 1.0
+        },
+        {
+          "step": 400,
+          "train_loss": 0.002638569101691246,
+          "val_ap": 1.0
+        }
+      ],
+      "best_val_ap": 1.0,
+      "best_step": 200,
+      "model_config": {
+        "name": "gru",
+        "input_dim": 8,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1
+      },
+      "parameters": 19169,
+      "seconds": 1.4101247999933548,
+      "peak_allocated_bytes": 46787584,
+      "pos_weight": 3.724336862564087,
+      "steps": 400,
+      "batch": 16,
+      "device": "cuda"
+    },
+    {
+      "lr": 0.003,
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.004435796290636063,
+          "val_ap": 1.0
+        },
+        {
+          "step": 200,
+          "train_loss": 0.0012600749032571912,
+          "val_ap": 1.0
+        },
+        {
+          "step": 300,
+          "train_loss": 0.0006370289484038949,
+          "val_ap": 1.0
+        },
+        {
+          "step": 400,
+          "train_loss": 0.00038037769263610244,
+          "val_ap": 0.9999999999999999
+        }
+      ],
+      "best_val_ap": 1.0,
+      "best_step": 100,
+      "model_config": {
+        "name": "gru",
+        "input_dim": 8,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1
+      },
+      "parameters": 19169,
+      "seconds": 1.3893036000081338,
+      "peak_allocated_bytes": 46787584,
+      "pos_weight": 3.724336862564087,
+      "steps": 400,
+      "batch": 16,
+      "device": "cuda"
+    }
+  ]
+}

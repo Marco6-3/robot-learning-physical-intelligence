@@ -1,0 +1,126 @@
+{
+  "all_real_endpoints_scored_exactly_once": true,
+  "no_overlap_across_trial_sets": true,
+  "records": [
+    {
+      "configuration": "held_trial_low",
+      "split": "train",
+      "trials": 18,
+      "chunks": 119,
+      "valid_scored_frames": 7172,
+      "slip_prevalence": 0.23271054029464722
+    },
+    {
+      "configuration": "held_trial_low",
+      "split": "validation",
+      "trials": 18,
+      "chunks": 140,
+      "valid_scored_frames": 8482,
+      "slip_prevalence": 0.2639707624912262
+    },
+    {
+      "configuration": "held_trial_low",
+      "split": "test",
+      "trials": 18,
+      "chunks": 118,
+      "valid_scored_frames": 7123,
+      "slip_prevalence": 0.2959427237510681
+    },
+    {
+      "configuration": "held_trial_full",
+      "split": "train",
+      "trials": 54,
+      "chunks": 371,
+      "valid_scored_frames": 22276,
+      "slip_prevalence": 0.24847368896007538
+    },
+    {
+      "configuration": "held_trial_full",
+      "split": "validation",
+      "trials": 18,
+      "chunks": 140,
+      "valid_scored_frames": 8482,
+      "slip_prevalence": 0.2639707624912262
+    },
+    {
+      "configuration": "held_trial_full",
+      "split": "test",
+      "trials": 18,
+      "chunks": 118,
+      "valid_scored_frames": 7123,
+      "slip_prevalence": 0.2959427237510681
+    },
+    {
+      "configuration": "loo_SpoolSolder",
+      "split": "train",
+      "trials": 48,
+      "chunks": 302,
+      "valid_scored_frames": 18061,
+      "slip_prevalence": 0.2906815707683563
+    },
+    {
+      "configuration": "loo_SpoolSolder",
+      "split": "validation",
+      "trials": 12,
+      "chunks": 72,
+      "valid_scored_frames": 4298,
+      "slip_prevalence": 0.30595624446868896
+    },
+    {
+      "configuration": "loo_SpoolSolder",
+      "split": "test",
+      "trials": 30,
+      "chunks": 255,
+      "valid_scored_frames": 15522,
+      "slip_prevalence": 0.21369668841362
+    },
+    {
+      "configuration": "loo_brush",
+      "split": "train",
+      "trials": 48,
+      "chunks": 405,
+      "valid_scored_frames": 24687,
+      "slip_prevalence": 0.26434966921806335
+    },
+    {
+      "configuration": "loo_brush",
+      "split": "validation",
+      "trials": 12,
+      "chunks": 102,
+      "valid_scored_frames": 6268,
+      "slip_prevalence": 0.30073389410972595
+    },
+    {
+      "configuration": "loo_brush",
+      "split": "test",
+      "trials": 30,
+      "chunks": 122,
+      "valid_scored_frames": 6926,
+      "slip_prevalence": 0.21238809823989868
+    },
+    {
+      "configuration": "loo_screwDriver",
+      "split": "train",
+      "trials": 48,
+      "chunks": 315,
+      "valid_scored_frames": 18768,
+      "slip_prevalence": 0.20098039507865906
+    },
+    {
+      "configuration": "loo_screwDriver",
+      "split": "validation",
+      "trials": 12,
+      "chunks": 62,
+      "valid_scored_frames": 3680,
+      "slip_prevalence": 0.2760869562625885
+    },
+    {
+      "configuration": "loo_screwDriver",
+      "split": "test",
+      "trials": 30,
+      "chunks": 252,
+      "valid_scored_frames": 15433,
+      "slip_prevalence": 0.33007192611694336
+    }
+  ]
+}

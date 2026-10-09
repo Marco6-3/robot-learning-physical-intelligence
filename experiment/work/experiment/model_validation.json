@@ -1,0 +1,87 @@
+{
+  "torch": "2.11.0+cu128",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "scan_oracle": [
+    {
+      "length": 17,
+      "output_max_abs": 1.3322676295501878e-15,
+      "gradient_max_abs": 3.552713678800501e-15
+    },
+    {
+      "length": 64,
+      "output_max_abs": 1.7763568394002505e-15,
+      "gradient_max_abs": 1.7763568394002505e-14
+    }
+  ],
+  "official_reference": [
+    {
+      "length": 17,
+      "output_max_abs": 9.313225746154785e-10,
+      "gradient_max_abs": 1.4901161193847656e-08
+    },
+    {
+      "length": 64,
+      "output_max_abs": 3.725290298461914e-09,
+      "gradient_max_abs": 1.1920928955078125e-07
+    }
+  ],
+  "models": {
+    "mlp": {
+      "parameters_input_dim8": 17793,
+      "future_perturbation_max_abs": 0.0
+    },
+    "tcn": {
+      "parameters_input_dim8": 20081,
+      "future_perturbation_max_abs": 0.0
+    },
+    "gru": {
+      "parameters_input_dim8": 19169,
+      "future_perturbation_max_abs": 0.0
+    },
+    "mamba": {
+      "parameters_input_dim8": 17281,
+      "future_perturbation_max_abs": 0.0
+    }
+  },
+  "benchmark": {
+    "batch": 16,
+    "length": 128,
+    "input_dim": 8,
+    "dtype": "float32",
+    "iterations": 20,
+    "note": "Portable non-fused Mamba latency/memory are not fair architecture speed comparisons.",
+    "results": {
+      "mlp": {
+        "parameters": 17793,
+        "forward_ms": 0.2581568002700806,
+        "forward_backward_ms": 1.5074511528015138,
+        "peak_allocated_MiB": 23.4541015625,
+        "incremental_peak_MiB": 5.9970703125
+      },
+      "tcn": {
+        "parameters": 20081,
+        "forward_ms": 1.249028778076172,
+        "forward_backward_ms": 4.1666912078857425,
+        "peak_allocated_MiB": 22.24755859375,
+        "incremental_peak_MiB": 4.76123046875
+      },
+      "gru": {
+        "parameters": 19169,
+        "forward_ms": 0.34753758907318116,
+        "forward_backward_ms": 2.357516860961914,
+        "peak_allocated_MiB": 41.408203125,
+        "incremental_peak_MiB": 23.939453125
+      },
+      "mamba": {
+        "parameters": 17281,
+        "forward_ms": 3.534436798095703,
+        "forward_backward_ms": 16.31580352783203,
+        "peak_allocated_MiB": 165.18359375,
+        "incremental_peak_MiB": 147.7216796875
+      }
+    }
+  },
+  "status": "all checks passed"
+}

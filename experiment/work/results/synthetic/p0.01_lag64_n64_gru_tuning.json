@@ -1,0 +1,87 @@
+{
+  "selected_lr": 0.003,
+  "trials": [
+    {
+      "lr": 0.001,
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.51617431640625,
+          "val_ap": 0.507622360518757
+        },
+        {
+          "step": 200,
+          "train_loss": 0.07158028334379196,
+          "val_ap": 0.5092298321426957
+        },
+        {
+          "step": 300,
+          "train_loss": 0.04599730670452118,
+          "val_ap": 0.5105045646862278
+        },
+        {
+          "step": 400,
+          "train_loss": 0.04043791815638542,
+          "val_ap": 0.4958095535709499
+        }
+      ],
+      "best_val_ap": 0.5105045646862278,
+      "best_step": 300,
+      "model_config": {
+        "name": "gru",
+        "input_dim": 8,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1
+      },
+      "parameters": 19169,
+      "seconds": 1.4673679000115953,
+      "peak_allocated_bytes": 46787584,
+      "pos_weight": 116.02857208251953,
+      "steps": 400,
+      "batch": 16,
+      "device": "cuda"
+    },
+    {
+      "lr": 0.003,
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.0868915468454361,
+          "val_ap": 0.5231437257517815
+        },
+        {
+          "step": 200,
+          "train_loss": 0.028436578810214996,
+          "val_ap": 0.491145006887917
+        },
+        {
+          "step": 300,
+          "train_loss": 0.0031649742741137743,
+          "val_ap": 0.4191529191818678
+        },
+        {
+          "step": 400,
+          "train_loss": 0.0007777121500112116,
+          "val_ap": 0.41191480312457335
+        }
+      ],
+      "best_val_ap": 0.5231437257517815,
+      "best_step": 100,
+      "model_config": {
+        "name": "gru",
+        "input_dim": 8,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1
+      },
+      "parameters": 19169,
+      "seconds": 1.4863767999922857,
+      "peak_allocated_bytes": 46787584,
+      "pos_weight": 116.02857208251953,
+      "steps": 400,
+      "batch": 16,
+      "device": "cuda"
+    }
+  ]
+}

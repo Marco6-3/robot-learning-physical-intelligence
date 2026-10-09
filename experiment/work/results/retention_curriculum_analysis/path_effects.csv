@@ -1,0 +1,11 @@
+﻿model,metric,contrast,estimate,lower,upper,undefined_draws,confidence,primary,multiplicity_family,positive_effect_interval_excludes_zero
+gru,ap,curriculum_minus_direct,0.0,0.0,0.0,0,0.95,False,,False
+gru,query_ap,curriculum_minus_direct,0.0,0.0,0.0,0,0.975,True,two model-specific query-AP path effects,False
+gru,cue_shuffled_ap,curriculum_minus_direct,-0.00045431150198749215,-0.014017391316322753,0.011293576273057947,0,0.95,False,,False
+gru,cue_shuffled_query_ap,curriculum_minus_direct,0.0014846016704946896,-0.007843836623411518,0.010919388673442054,0,0.95,False,,False
+gru,cue_shuffle_query_ap_drop,curriculum_minus_direct,-0.0014846016704946896,-0.010919388673442113,0.00784383662341141,0,0.95,False,,False
+mamba,ap,curriculum_minus_direct,0.19281652597797905,-0.0015768425458350796,0.39288322264795306,0,0.95,False,,False
+mamba,query_ap,curriculum_minus_direct,0.19281612761853317,-0.0037988415173755255,0.40025960759581086,0,0.975,True,two model-specific query-AP path effects,False
+mamba,cue_shuffled_ap,curriculum_minus_direct,-0.023727619985242032,-0.05045762274374684,-0.002656893407420247,0,0.95,False,,False
+mamba,cue_shuffled_query_ap,curriculum_minus_direct,-0.00724815371163734,-0.017138167100580314,0.0019194741562694546,0,0.95,False,,False
+mamba,cue_shuffle_query_ap_drop,curriculum_minus_direct,0.20006428133017035,0.0026741627669775343,0.40163006037551297,0,0.95,False,,True

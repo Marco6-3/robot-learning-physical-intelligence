@@ -1,0 +1,65 @@
+{
+  "fingerprint": "39d2470afbf11ee99e6778fc1c5dfb4cd31e26fb910c8b7fd28e9b33dacbe43b",
+  "configuration": "loo_SpoolSolder",
+  "model": "mamba",
+  "phase": "tune",
+  "seed": 901,
+  "lr": 0.001,
+  "parameters": 21013,
+  "training": {
+    "trace": [
+      {
+        "step": 100,
+        "train_loss": 0.6169201135635376,
+        "val_ap": 0.6452600671821791
+      },
+      {
+        "step": 200,
+        "train_loss": 0.22128529846668243,
+        "val_ap": 0.5563363078506931
+      },
+      {
+        "step": 300,
+        "train_loss": 0.1991749405860901,
+        "val_ap": 0.4929578887521716
+      },
+      {
+        "step": 400,
+        "train_loss": 0.2846215069293976,
+        "val_ap": 0.5099715718615809
+      }
+    ],
+    "best_val_ap": 0.6452600671821791,
+    "best_step": 100,
+    "model_config": {
+      "name": "mamba",
+      "input_dim": 54,
+      "width": 34,
+      "depth": 2,
+      "d_state": 8,
+      "expand": 2,
+      "d_conv": 4
+    },
+    "parameters": 21013,
+    "seconds": 6.363534800009802,
+    "peak_allocated_bytes": 192528384,
+    "pos_weight": 2.440190553665161,
+    "steps": 400,
+    "batch": 16,
+    "lr": 0.001,
+    "device": "cuda"
+  },
+  "validation": {
+    "ap": 0.6452600671821791,
+    "f1": 0.6615749275744008,
+    "prevalence": 0.3059562587249884,
+    "precision": 0.5060435132957293,
+    "recall": 0.9551330798479087,
+    "brier": 0.17681350706829213,
+    "tp": 1256,
+    "fp": 1226,
+    "fn": 59,
+    "n": 4298,
+    "threshold": 0.3411180078983307
+  }
+}

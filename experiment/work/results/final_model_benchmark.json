@@ -1,0 +1,490 @@
+{
+  "utc_timestamp": "2026-10-09T12:27:07.577118+00:00",
+  "torch": "2.11.0+cu128",
+  "python_platform": "Windows-10-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "dtype": "float32",
+  "tf32": false,
+  "threads": 4,
+  "warmup": 10,
+  "repeats": 5,
+  "iterations_per_repeat": 20,
+  "optimizer_step_included": false,
+  "results": [
+    {
+      "model": "mlp",
+      "config": {
+        "name": "mlp",
+        "input_dim": 54,
+        "width": 122,
+        "depth": 2,
+        "embed_dim": 32
+      },
+      "parameters": 20915,
+      "batch": 1,
+      "length": 128,
+      "input_dim": 54,
+      "inference_forward": {
+        "cuda_ms_per_batch_median": 0.209116792678833,
+        "cuda_ms_per_batch_repeats": [
+          0.209116792678833,
+          0.2170095920562744,
+          0.20516319274902345,
+          0.20528960227966309,
+          0.21571359634399415
+        ],
+        "synchronized_wall_ms_per_batch_median": 0.214465000317432,
+        "synchronized_wall_ms_per_batch_repeats": [
+          0.214465000317432,
+          0.218754998059012,
+          0.20658499852288514,
+          0.20662999886553735,
+          0.21712000016123056
+        ],
+        "cuda_ms_per_frame_amortized": 0.001633724942803383,
+        "base_allocated_bytes": 9681920,
+        "peak_allocated_bytes": 9823232,
+        "incremental_peak_bytes": 141312
+      },
+      "training_forward_backward": {
+        "cuda_ms_per_batch_median": 1.1084303855895996,
+        "cuda_ms_per_batch_repeats": [
+          1.1938143730163575,
+          1.1084303855895996,
+          1.1006336212158203,
+          1.1982768058776856,
+          1.068879985809326
+        ],
+        "synchronized_wall_ms_per_batch_median": 1.1104649980552495,
+        "synchronized_wall_ms_per_batch_repeats": [
+          1.1984399985522032,
+          1.1104649980552495,
+          1.1029549990780652,
+          1.2013350002234802,
+          1.0720099991885945
+        ],
+        "cuda_ms_per_frame_amortized": 0.008659612387418747,
+        "base_allocated_bytes": 18201600,
+        "peak_allocated_bytes": 18532864,
+        "incremental_peak_bytes": 331264
+      }
+    },
+    {
+      "model": "tcn",
+      "config": {
+        "name": "tcn",
+        "input_dim": 54,
+        "width": 39,
+        "depth": 4,
+        "kernel_size": 3
+      },
+      "parameters": 20905,
+      "batch": 1,
+      "length": 128,
+      "input_dim": 54,
+      "inference_forward": {
+        "cuda_ms_per_batch_median": 0.6280799865722656,
+        "cuda_ms_per_batch_repeats": [
+          0.6262176036834717,
+          0.6280799865722656,
+          0.677726411819458,
+          0.603278398513794,
+          0.6403200149536132
+        ],
+        "synchronized_wall_ms_per_batch_median": 0.630204999470152,
+        "synchronized_wall_ms_per_batch_repeats": [
+          0.6300499982899055,
+          0.630204999470152,
+          0.6797100009862334,
+          0.605315002030693,
+          0.6424149993108585
+        ],
+        "cuda_ms_per_frame_amortized": 0.004906874895095825,
+        "base_allocated_bytes": 18206208,
+        "peak_allocated_bytes": 18308608,
+        "incremental_peak_bytes": 102400
+      },
+      "training_forward_backward": {
+        "cuda_ms_per_batch_median": 2.776414489746094,
+        "cuda_ms_per_batch_repeats": [
+          2.728079986572266,
+          2.8674816131591796,
+          2.6522144317626952,
+          2.8892288208007812,
+          2.776414489746094
+        ],
+        "synchronized_wall_ms_per_batch_median": 2.779789999476634,
+        "synchronized_wall_ms_per_batch_repeats": [
+          2.731274999678135,
+          2.870160000748001,
+          2.65582499851007,
+          2.8917650022776797,
+          2.779789999476634
+        ],
+        "cuda_ms_per_frame_amortized": 0.021690738201141358,
+        "base_allocated_bytes": 18206208,
+        "peak_allocated_bytes": 18536448,
+        "incremental_peak_bytes": 330240
+      }
+    },
+    {
+      "model": "gru",
+      "config": {
+        "name": "gru",
+        "input_dim": 54,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1
+      },
+      "parameters": 20641,
+      "batch": 1,
+      "length": 128,
+      "input_dim": 54,
+      "inference_forward": {
+        "cuda_ms_per_batch_median": 0.23572320938110353,
+        "cuda_ms_per_batch_repeats": [
+          0.23008639812469484,
+          0.2662287950515747,
+          0.2560703992843628,
+          0.23572320938110353,
+          0.22200479507446289
+        ],
+        "synchronized_wall_ms_per_batch_median": 0.2376550022745505,
+        "synchronized_wall_ms_per_batch_repeats": [
+          0.23347999958787113,
+          0.2683750004507601,
+          0.2582549990620464,
+          0.2376550022745505,
+          0.22407000069506466
+        ],
+        "cuda_ms_per_frame_amortized": 0.0018415875732898713,
+        "base_allocated_bytes": 18200064,
+        "peak_allocated_bytes": 27254784,
+        "incremental_peak_bytes": 9054720
+      },
+      "training_forward_backward": {
+        "cuda_ms_per_batch_median": 1.4587712287902832,
+        "cuda_ms_per_batch_repeats": [
+          1.4905183792114258,
+          1.3360079765319823,
+          1.5109456062316895,
+          1.4450799942016601,
+          1.4587712287902832
+        ],
+        "synchronized_wall_ms_per_batch_median": 1.4607399993110448,
+        "synchronized_wall_ms_per_batch_repeats": [
+          1.494339999044314,
+          1.338104999740608,
+          1.514639999368228,
+          1.4473399991402403,
+          1.4607399993110448
+        ],
+        "cuda_ms_per_frame_amortized": 0.011396650224924088,
+        "base_allocated_bytes": 18200064,
+        "peak_allocated_bytes": 27661312,
+        "incremental_peak_bytes": 9461248
+      }
+    },
+    {
+      "model": "mamba",
+      "config": {
+        "name": "mamba",
+        "input_dim": 54,
+        "width": 34,
+        "depth": 2,
+        "d_state": 8,
+        "expand": 2,
+        "d_conv": 4
+      },
+      "parameters": 21013,
+      "batch": 1,
+      "length": 128,
+      "input_dim": 54,
+      "inference_forward": {
+        "cuda_ms_per_batch_median": 2.3481376647949217,
+        "cuda_ms_per_batch_repeats": [
+          2.395400047302246,
+          2.4430160522460938,
+          2.2785263061523438,
+          2.2516799926757813,
+          2.3481376647949217
+        ],
+        "synchronized_wall_ms_per_batch_median": 2.351460000500083,
+        "synchronized_wall_ms_per_batch_repeats": [
+          2.4010299996007234,
+          2.445175001048483,
+          2.2807650006143376,
+          2.253725001355633,
+          2.351460000500083
+        ],
+        "cuda_ms_per_frame_amortized": 0.018344825506210326,
+        "base_allocated_bytes": 18210304,
+        "peak_allocated_bytes": 20359680,
+        "incremental_peak_bytes": 2149376
+      },
+      "training_forward_backward": {
+        "cuda_ms_per_batch_median": 11.373099517822265,
+        "cuda_ms_per_batch_repeats": [
+          11.084588623046875,
+          11.373099517822265,
+          11.374033355712891,
+          11.366862487792968,
+          11.3846435546875
+        ],
+        "synchronized_wall_ms_per_batch_median": 11.376025000936352,
+        "synchronized_wall_ms_per_batch_repeats": [
+          11.089844998787157,
+          11.376025000936352,
+          11.37688500166405,
+          11.370639997767285,
+          11.387820000527427
+        ],
+        "cuda_ms_per_frame_amortized": 0.08885233998298644,
+        "base_allocated_bytes": 18210304,
+        "peak_allocated_bytes": 28445184,
+        "incremental_peak_bytes": 10234880
+      }
+    },
+    {
+      "model": "mlp",
+      "config": {
+        "name": "mlp",
+        "input_dim": 54,
+        "width": 122,
+        "depth": 2,
+        "embed_dim": 32
+      },
+      "parameters": 20915,
+      "batch": 16,
+      "length": 128,
+      "input_dim": 54,
+      "inference_forward": {
+        "cuda_ms_per_batch_median": 0.16681439876556398,
+        "cuda_ms_per_batch_repeats": [
+          0.17206560373306273,
+          0.16571680307388306,
+          0.16681439876556398,
+          0.17355680465698242,
+          0.1654528021812439
+        ],
+        "synchronized_wall_ms_per_batch_median": 0.16822500037960708,
+        "synchronized_wall_ms_per_batch_repeats": [
+          0.1757250021910295,
+          0.1673899998422712,
+          0.16822500037960708,
+          0.17472000035922974,
+          0.16686499875504524
+        ],
+        "cuda_ms_per_frame_amortized": 8.145234314724804e-05,
+        "base_allocated_bytes": 18624000,
+        "peak_allocated_bytes": 20884992,
+        "incremental_peak_bytes": 2260992
+      },
+      "training_forward_backward": {
+        "cuda_ms_per_batch_median": 1.0216688156127929,
+        "cuda_ms_per_batch_repeats": [
+          1.0448287963867187,
+          1.0916015625,
+          0.9243184089660644,
+          1.0216688156127929,
+          0.995747184753418
+        ],
+        "synchronized_wall_ms_per_batch_median": 1.024390000384301,
+        "synchronized_wall_ms_per_batch_repeats": [
+          1.0490699991350994,
+          1.0948900016956031,
+          0.926439999602735,
+          1.024390000384301,
+          0.9983399999327958
+        ],
+        "cuda_ms_per_frame_amortized": 0.000498861726373434,
+        "base_allocated_bytes": 18624000,
+        "peak_allocated_bytes": 23893504,
+        "incremental_peak_bytes": 5269504
+      }
+    },
+    {
+      "model": "tcn",
+      "config": {
+        "name": "tcn",
+        "input_dim": 54,
+        "width": 39,
+        "depth": 4,
+        "kernel_size": 3
+      },
+      "parameters": 20905,
+      "batch": 16,
+      "length": 128,
+      "input_dim": 54,
+      "inference_forward": {
+        "cuda_ms_per_batch_median": 0.5846560001373291,
+        "cuda_ms_per_batch_repeats": [
+          0.5624512195587158,
+          0.5479663848876953,
+          0.6060976028442383,
+          0.6241119861602783,
+          0.5846560001373291
+        ],
+        "synchronized_wall_ms_per_batch_median": 0.5876599985640496,
+        "synchronized_wall_ms_per_batch_repeats": [
+          0.5661749979481101,
+          0.5499299993971363,
+          0.6089149974286556,
+          0.6272749975323677,
+          0.5876599985640496
+        ],
+        "cuda_ms_per_frame_amortized": 0.0002854765625670552,
+        "base_allocated_bytes": 18628608,
+        "peak_allocated_bytes": 20265984,
+        "incremental_peak_bytes": 1637376
+      },
+      "training_forward_backward": {
+        "cuda_ms_per_batch_median": 2.402070426940918,
+        "cuda_ms_per_batch_repeats": [
+          2.319713592529297,
+          2.402070426940918,
+          2.5834415435791014,
+          2.3540927886962892,
+          2.4368799209594725
+        ],
+        "synchronized_wall_ms_per_batch_median": 2.4057400005403906,
+        "synchronized_wall_ms_per_batch_repeats": [
+          2.3241299990331754,
+          2.4057400005403906,
+          2.586610001162626,
+          2.3578599997563288,
+          2.4406000011367723
+        ],
+        "cuda_ms_per_frame_amortized": 0.001172885950654745,
+        "base_allocated_bytes": 18628608,
+        "peak_allocated_bytes": 23582720,
+        "incremental_peak_bytes": 4954112
+      }
+    },
+    {
+      "model": "gru",
+      "config": {
+        "name": "gru",
+        "input_dim": 54,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1
+      },
+      "parameters": 20641,
+      "batch": 16,
+      "length": 128,
+      "input_dim": 54,
+      "inference_forward": {
+        "cuda_ms_per_batch_median": 0.2488879919052124,
+        "cuda_ms_per_batch_repeats": [
+          0.2553744077682495,
+          0.2455296039581299,
+          0.2488879919052124,
+          0.25127999782562255,
+          0.23752639293670655
+        ],
+        "synchronized_wall_ms_per_batch_median": 0.25105500244535506,
+        "synchronized_wall_ms_per_batch_repeats": [
+          0.2593049983261153,
+          0.24827999877743423,
+          0.25105500244535506,
+          0.2529999997932464,
+          0.2394549985183403
+        ],
+        "cuda_ms_per_frame_amortized": 0.000121527339797467,
+        "base_allocated_bytes": 18622464,
+        "peak_allocated_bytes": 36809216,
+        "incremental_peak_bytes": 18186752
+      },
+      "training_forward_backward": {
+        "cuda_ms_per_batch_median": 1.3692831993103027,
+        "cuda_ms_per_batch_repeats": [
+          1.4017200469970703,
+          1.3614368438720703,
+          1.3193504333496093,
+          1.3692831993103027,
+          1.4343600273132324
+        ],
+        "synchronized_wall_ms_per_batch_median": 1.3723900017794222,
+        "synchronized_wall_ms_per_batch_repeats": [
+          1.4057799999136478,
+          1.3640149991260841,
+          1.322480000089854,
+          1.3723900017794222,
+          1.4377699990291148
+        ],
+        "cuda_ms_per_frame_amortized": 0.0006685953121632338,
+        "base_allocated_bytes": 18622464,
+        "peak_allocated_bytes": 43802624,
+        "incremental_peak_bytes": 25180160
+      }
+    },
+    {
+      "model": "mamba",
+      "config": {
+        "name": "mamba",
+        "input_dim": 54,
+        "width": 34,
+        "depth": 2,
+        "d_state": 8,
+        "expand": 2,
+        "d_conv": 4
+      },
+      "parameters": 21013,
+      "batch": 16,
+      "length": 128,
+      "input_dim": 54,
+      "inference_forward": {
+        "cuda_ms_per_batch_median": 2.3224720001220702,
+        "cuda_ms_per_batch_repeats": [
+          2.2491151809692385,
+          2.271241569519043,
+          2.3527679443359375,
+          2.3224720001220702,
+          2.3226015090942385
+        ],
+        "synchronized_wall_ms_per_batch_median": 2.325425000162795,
+        "synchronized_wall_ms_per_batch_repeats": [
+          2.2539550001965836,
+          2.274324998143129,
+          2.354635001393035,
+          2.3261599999386817,
+          2.325425000162795
+        ],
+        "cuda_ms_per_frame_amortized": 0.0011340195313096046,
+        "base_allocated_bytes": 18632704,
+        "peak_allocated_bytes": 52980224,
+        "incremental_peak_bytes": 34347520
+      },
+      "training_forward_backward": {
+        "cuda_ms_per_batch_median": 10.919387054443359,
+        "cuda_ms_per_batch_repeats": [
+          10.81073455810547,
+          10.688983917236328,
+          11.528656005859375,
+          11.446756744384766,
+          10.919387054443359
+        ],
+        "synchronized_wall_ms_per_batch_median": 10.92223500018008,
+        "synchronized_wall_ms_per_batch_repeats": [
+          10.81523000029847,
+          10.692245000973344,
+          11.532669997541234,
+          11.450530000729486,
+          10.92223500018008
+        ],
+        "cuda_ms_per_frame_amortized": 0.005331731960177421,
+        "base_allocated_bytes": 18632704,
+        "peak_allocated_bytes": 183145472,
+        "incremental_peak_bytes": 164512768
+      }
+    }
+  ],
+  "interpretation": [
+    "Implementation-specific timing on random fresh models; not experimental prediction performance.",
+    "Portable non-fused Mamba has O(L log L) scan work and cannot establish architecture speed superiority.",
+    "B1 still evaluates a full L128 window; it is not cached single-step streaming inference latency.",
+    "Per-frame amortized timings are throughput conversions, not event detection delay.",
+    "Peak memory includes tensors and model allocations in this isolated benchmark process."
+  ]
+}

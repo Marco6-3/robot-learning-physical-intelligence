@@ -1,0 +1,74 @@
+{
+  "task": "single-cue-one-bit-memory-v2",
+  "rate": 0.2,
+  "lag": 2,
+  "n_train": 4096,
+  "model": "gru",
+  "seed": 0,
+  "parameters": 19169,
+  "config": {
+    "name": "gru",
+    "input_dim": 8,
+    "width": 64,
+    "embed_dim": 32,
+    "depth": 1
+  },
+  "metrics": {
+    "ap": 1.0,
+    "f1": 0.9995414947271893,
+    "prevalence": 0.19976806640625,
+    "precision": 1.0,
+    "recall": 0.999083409715857,
+    "brier": 0.0011573322906517258,
+    "tp": 3270,
+    "fp": 0,
+    "fn": 3,
+    "n": 16384,
+    "threshold": 0.9470714926719666,
+    "query_ap": 1.0,
+    "query_n": 6580,
+    "cue_shuffled_ap": 0.41917363114755113,
+    "cue_shuffled_query_ap": 0.4980091088590985
+  },
+  "training": {
+    "trace": [
+      {
+        "step": 100,
+        "train_loss": 0.532480001449585,
+        "val_ap": 0.9051981898697535
+      },
+      {
+        "step": 200,
+        "train_loss": 0.039513710886240005,
+        "val_ap": 1.0
+      },
+      {
+        "step": 300,
+        "train_loss": 0.00859895721077919,
+        "val_ap": 1.0
+      },
+      {
+        "step": 400,
+        "train_loss": 0.0048807645216584206,
+        "val_ap": 1.0
+      }
+    ],
+    "best_val_ap": 1.0,
+    "best_step": 200,
+    "model_config": {
+      "name": "gru",
+      "input_dim": 8,
+      "width": 64,
+      "embed_dim": 32,
+      "depth": 1
+    },
+    "parameters": 19169,
+    "seconds": 1.3441121999640018,
+    "peak_allocated_bytes": 79856128,
+    "pos_weight": 3.876190423965454,
+    "steps": 400,
+    "batch": 32,
+    "lr": 0.001,
+    "device": "cuda"
+  }
+}

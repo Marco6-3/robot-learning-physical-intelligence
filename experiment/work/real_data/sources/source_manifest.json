@@ -1,0 +1,63 @@
+{
+  "repository": "https://github.com/ARQ-CRISP/slip_detection_dataset_2021",
+  "revision": "a536ee3301af0566218782b00de334b6a6630979",
+  "retrieved_utc": "2026-10-09T11:41:57.328113+00:00",
+  "license": "BSD-3-Clause",
+  "files": [
+    {
+      "path": "sources\\arq2021_README.md",
+      "url": "https://raw.githubusercontent.com/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/README.md",
+      "bytes": 2800,
+      "sha256": "8f7592fb38aff168dec4db41e82ef19f9814205cedeb4806fb4b9cdd81bdb080"
+    },
+    {
+      "path": "sources\\arq2021_LICENSE",
+      "url": "https://raw.githubusercontent.com/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/LICENSE",
+      "bytes": 1513,
+      "sha256": "e6f0d674b9ee8600ec29ae213c9dccff5f5d83a46eedc2a9077bc897a9084f72"
+    },
+    {
+      "path": "sources\\arq2021_data_README.md",
+      "url": "https://raw.githubusercontent.com/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/data/README.md",
+      "bytes": 7912,
+      "sha256": "12605726deea3bff42cbce73ec9c785ea72c4767ae792bea1d02faa1c5fbdbb8"
+    },
+    {
+      "filename": "slipDataset_brush_tactile.h5",
+      "bytes": 41105856,
+      "sha256_expected_lfs": "a2aef56bf4cfc5e2d17ae09772295cb207c733e3a73059913939ba5a7a1e2139",
+      "url": "https://media.githubusercontent.com/media/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/data/slipDataset_brush_tactile.h5",
+      "sha256_actual": "a2aef56bf4cfc5e2d17ae09772295cb207c733e3a73059913939ba5a7a1e2139",
+      "verified": true
+    },
+    {
+      "filename": "slipDataset_screwDriver_tactile.h5",
+      "bytes": 82416420,
+      "sha256_expected_lfs": "c8124b295a6faf42c750c75e8dcd49dcc45289e06fa7cb4047476af2f570309a",
+      "url": "https://media.githubusercontent.com/media/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/data/slipDataset_screwDriver_tactile.h5",
+      "sha256_actual": "c8124b295a6faf42c750c75e8dcd49dcc45289e06fa7cb4047476af2f570309a",
+      "verified": true
+    },
+    {
+      "filename": "slipDataset_SpoolSolder_tactile.h5",
+      "bytes": 142749496,
+      "sha256_expected_lfs": "a8c4f14e71c0b4d7da738997c965e745f75123fea7f5c6d338810ba4adfdeeff",
+      "url": "https://media.githubusercontent.com/media/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/data/slipDataset_SpoolSolder_tactile.h5",
+      "sha256_actual": "a8c4f14e71c0b4d7da738997c965e745f75123fea7f5c6d338810ba4adfdeeff",
+      "verified": true
+    },
+    {
+      "path": "sources\\flexitac_README.md",
+      "url": "https://huggingface.co/datasets/Tna001/tactile_test_tube_pyflexitac/resolve/ebd3c711d678aa18bfc7f6a0a1e894104c8c1ea4/README.md",
+      "bytes": 14139,
+      "sha256": "0ad7d18793e92d45babe25a25c37ae69861aec09fb07e78c835c04ef31761913"
+    },
+    {
+      "path": "sources\\flexitac_meta_info.json",
+      "url": "https://huggingface.co/datasets/Tna001/tactile_test_tube_pyflexitac/resolve/ebd3c711d678aa18bfc7f6a0a1e894104c8c1ea4/meta/info.json",
+      "bytes": 13250,
+      "sha256": "bde6d090ccce58f7691ea7ef1beef8a4e5b2c5f37e3f79a51019c061f9785b9d"
+    }
+  ],
+  "flexitac_revision": "ebd3c711d678aa18bfc7f6a0a1e894104c8c1ea4"
+}

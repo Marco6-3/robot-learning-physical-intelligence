@@ -1,0 +1,41 @@
+{
+  "generator": "causal-delayed-query-v1",
+  "length": 128,
+  "score_start": 64,
+  "prevalence": [
+    0.01,
+    0.2
+  ],
+  "lags": [
+    2,
+    64
+  ],
+  "nominal_hz": 20,
+  "train_records": [
+    64,
+    256
+  ],
+  "validation_records": 256,
+  "test_records": 512,
+  "train_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "models": [
+    "mlp",
+    "tcn",
+    "gru",
+    "mamba"
+  ],
+  "steps": 400,
+  "learning_rates": [
+    0.001,
+    0.003
+  ],
+  "tune_seed": 901,
+  "test_used_for_selection": false,
+  "interpretation": "Algorithmic delayed-key retrieval; not physical contact simulation or future forecasting."
+}

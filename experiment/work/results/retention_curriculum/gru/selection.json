@@ -1,0 +1,22 @@
+{
+  "model": "gru",
+  "selected_lr": 0.003,
+  "shared_by_both_arms": true,
+  "criterion": "per-model shared LR across arms: maximize mean best long-validation AP of direct and curriculum tuning runs",
+  "trials": [
+    {
+      "lr": 0.001,
+      "direct_best_val_ap": 0.5454278596774914,
+      "curriculum_best_val_ap": 1.0,
+      "mean_best_val_ap_across_arms": 0.7727139298387458
+    },
+    {
+      "lr": 0.003,
+      "direct_best_val_ap": 1.0,
+      "curriculum_best_val_ap": 1.0000000000000002,
+      "mean_best_val_ap_across_arms": 1.0
+    }
+  ],
+  "manifest_sha256": "fba79eb2100d90cf33dcc7a4c7b6d82378215ee88800e136d1afcec9e6deaeb2",
+  "test_used": false
+}

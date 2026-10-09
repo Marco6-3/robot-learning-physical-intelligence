@@ -1,0 +1,78 @@
+{
+  "created_at_utc": "2026-10-09T13:18:36.016263+00:00",
+  "matplotlib_version": "3.10.7",
+  "font_name": "Microsoft YaHei",
+  "font_path": "C:\\Windows\\Fonts\\msyh.ttc",
+  "source_analyses": {
+    "v1": {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-09\\chatgpt-conversation-6ac8b4f3-5b08-83e8-856f-2\\work\\results\\synthetic_analysis\\analysis.json",
+      "sha256": "e6d5196082143a428e53d0affe356ad7367dcd955287d29151f11a6e13e10082"
+    },
+    "real": {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-09\\chatgpt-conversation-6ac8b4f3-5b08-83e8-856f-2\\work\\results\\real_analysis\\analysis.json",
+      "sha256": "b6d5d07ac463b2d15c573eead087f3ea7d16f6d83ef933ddb04fef3c25346f3d"
+    },
+    "v2": {
+      "path": "C:\\Users\\mingzhe Liu\\Documents\\Codex\\2026-10-09\\chatgpt-conversation-6ac8b4f3-5b08-83e8-856f-2\\work\\results\\cue_memory_v2_analysis\\analysis.json",
+      "sha256": "b879884d35614a88a1adca3a80d5c088a06072ba61ea614fd682c073b751fba7"
+    }
+  },
+  "script_sha256": "f01ad98b8694cc64a8cdaa46a8025871a7f4a697c92fd58ee851ab099d2cec86",
+  "standard_errorbar": "sample standard deviation across 5 training seeds; NOT confidence interval",
+  "contrast_plot_saved": true,
+  "artifacts": [
+    {
+      "path": "v1_ap.png",
+      "sha256": "7d6b4f0ea752f4943bbce1b2513a91c1bfa162ffa975849a6915a82c7f40023b"
+    },
+    {
+      "path": "v1_ap.pdf",
+      "sha256": "efb0032fde0d8beaddcf651a15895d3adca50f45f3fba6141ffb70586cd604bd"
+    },
+    {
+      "path": "v2_ap.png",
+      "sha256": "656061fdc6ba91e8fb6b0e189dd665e175384eb1469cd452ec736d5f3f1e3ce2"
+    },
+    {
+      "path": "v2_ap.pdf",
+      "sha256": "ba41b0e3eed930f60015ad241255bd9afab98fa08092ccf448af8a1d11b01e21"
+    },
+    {
+      "path": "v1_query_ap.png",
+      "sha256": "736539d0e7165f60ee9cdf14db50c2b9d6607c22de74bc2bbfa58f29060b19ec"
+    },
+    {
+      "path": "v1_query_ap.pdf",
+      "sha256": "65b4e9884a45ac78fb802e34d6431f6b6e4c7f527737448d18f99c7978bd2bdb"
+    },
+    {
+      "path": "v2_query_ap.png",
+      "sha256": "64ad4d21d5a37ecf637c574f166f9c78ed8e1e1a51a62b4878aebea860d6ddbb"
+    },
+    {
+      "path": "v2_query_ap.pdf",
+      "sha256": "932d9086d807e52d1ec11fc31fe49650067745b2bff3258adb52e33dc6aaa884"
+    },
+    {
+      "path": "real_ap.png",
+      "sha256": "5e12f3c103db19503c9de1257f38e4cc480ba4463df6517da668b8766ab48322"
+    },
+    {
+      "path": "real_ap.pdf",
+      "sha256": "56df3290d3f4846b62436b073190221ccfe27e9f03c7b234d3423c8bc9af4d80"
+    },
+    {
+      "path": "hypothesis_intervals.png",
+      "sha256": "29d4318ef55ba87a809b8805ec3b4149ecd1f196a30bcaf3335ed717d1dd67cb"
+    },
+    {
+      "path": "hypothesis_intervals.pdf",
+      "sha256": "6f22d933846a1a008782cf15fc07ff780924b6b7645b8e7b975f7849d139ee28"
+    }
+  ],
+  "limits": [
+    "Standalone PNG300dpi and vector PDF; inspect rendered images for clipping before delivery.",
+    "No synthetic values or missing baselines are substituted.",
+    "Fixed tasks and observed real objects do not establish universal architecture ranking."
+  ]
+}

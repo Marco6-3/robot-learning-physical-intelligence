@@ -1,0 +1,1226 @@
+{
+  "fingerprint": "39d2470afbf11ee99e6778fc1c5dfb4cd31e26fb910c8b7fd28e9b33dacbe43b",
+  "configuration": "held_trial_full",
+  "model": "mlp",
+  "phase": "final",
+  "seed": 3,
+  "lr": 0.003,
+  "parameters": 20915,
+  "training": {
+    "trace": [
+      {
+        "step": 100,
+        "train_loss": 1.035689115524292,
+        "val_ap": 0.3951039908569481
+      },
+      {
+        "step": 200,
+        "train_loss": 0.4486183822154999,
+        "val_ap": 0.38939234766003733
+      },
+      {
+        "step": 300,
+        "train_loss": 0.6663458943367004,
+        "val_ap": 0.43181957043382724
+      },
+      {
+        "step": 400,
+        "train_loss": 0.927849292755127,
+        "val_ap": 0.42574663385838296
+      }
+    ],
+    "best_val_ap": 0.43181957043382724,
+    "best_step": 300,
+    "model_config": {
+      "name": "mlp",
+      "input_dim": 54,
+      "width": 122,
+      "depth": 2,
+      "embed_dim": 32
+    },
+    "parameters": 20915,
+    "seconds": 1.3619657999952324,
+    "peak_allocated_bytes": 35210752,
+    "pos_weight": 3.024570941925049,
+    "steps": 400,
+    "batch": 16,
+    "lr": 0.003,
+    "device": "cuda"
+  },
+  "validation": {
+    "ap": 0.43181957043382724,
+    "f1": 0.5363485016648168,
+    "prevalence": 0.2639707616128272,
+    "precision": 0.3890118736164218,
+    "recall": 0.8633318445734703,
+    "brier": 0.2389032421068395,
+    "tp": 1933,
+    "fp": 3036,
+    "fn": 306,
+    "n": 8482,
+    "threshold": 0.21204978227615356
+  },
+  "validation_trials": {
+    "frame": {
+      "ap": 0.43181957043382724,
+      "f1": 0.5363485016648168,
+      "prevalence": 0.2639707616128272,
+      "precision": 0.3890118736164218,
+      "recall": 0.8633318445734703,
+      "brier": 0.2389032421068395,
+      "tp": 1933,
+      "fp": 3036,
+      "fn": 306,
+      "n": 8482,
+      "threshold": 0.21204978227615356
+    },
+    "event": {
+      "event_tp": 24,
+      "event_fp": 29,
+      "event_fn": 21,
+      "event_f1": 0.4897959183673469,
+      "false_alarms_per_min": 6.156471960890592,
+      "detected_latency_sec_mean": 0.334747980038325,
+      "detected_latencies_sec": [
+        0.0,
+        0.0,
+        1.0000088214874268,
+        0.0,
+        0.16656875610351562,
+        0.633552074432373,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.10043811798095703,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.29985904693603516,
+        0.0,
+        0.5335676670074463,
+        0.0,
+        0.6665084362030029,
+        0.0,
+        4.466670751571655,
+        0.1667778491973877,
+        0.0
+      ],
+      "duration_sec": 282.6294038295746
+    },
+    "trials": [
+      {
+        "trial_id": "brush_Pose1_Exp7",
+        "object": "brush",
+        "frame": {
+          "ap": 0.9399694923860078,
+          "f1": 0.9019607843137255,
+          "prevalence": 0.45394736842105265,
+          "precision": 0.8214285714285714,
+          "recall": 1.0,
+          "brier": 0.05146132527266477,
+          "tp": 69,
+          "fp": 15,
+          "fn": 0,
+          "n": 152,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0,
+          "event_f1": 1.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 5.061023712158203
+        }
+      },
+      {
+        "trial_id": "brush_Pose1_Exp8",
+        "object": "brush",
+        "frame": {
+          "ap": 0.17314352314352316,
+          "f1": 0.35294117647058826,
+          "prevalence": 0.07865168539325842,
+          "precision": 0.2222222222222222,
+          "recall": 0.8571428571428571,
+          "brier": 0.15022507640505037,
+          "tp": 6,
+          "fp": 21,
+          "fn": 1,
+          "n": 89,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0,
+          "event_f1": 1.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 2.9611339569091797
+        }
+      },
+      {
+        "trial_id": "brush_Pose2_Exp7",
+        "object": "brush",
+        "frame": {
+          "ap": 0.0,
+          "f1": 0.0,
+          "prevalence": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "brier": 0.5641899544898574,
+          "tp": 0,
+          "fp": 592,
+          "fn": 0,
+          "n": 673,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 0,
+          "event_fp": 1,
+          "event_fn": 0,
+          "event_f1": 0.0,
+          "false_alarms_per_min": 2.675256120942918,
+          "detected_latencies_sec": [],
+          "detected_latency_sec_mean": null,
+          "duration_sec": 22.427759170532227
+        }
+      },
+      {
+        "trial_id": "brush_Pose2_Exp8",
+        "object": "brush",
+        "frame": {
+          "ap": 0.423283086657924,
+          "f1": 0.3357041251778094,
+          "prevalence": 0.22356495468277945,
+          "precision": 0.2126126126126126,
+          "recall": 0.7972972972972973,
+          "brier": 0.33759770381603016,
+          "tp": 118,
+          "fp": 437,
+          "fn": 30,
+          "n": 662,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 1,
+          "event_fn": 3,
+          "event_f1": 0.3333333333333333,
+          "false_alarms_per_min": 2.719730464028968,
+          "detected_latencies_sec": [
+            1.0000088214874268
+          ],
+          "detected_latency_sec_mean": 1.0000088214874268,
+          "duration_sec": 22.061009645462036
+        }
+      },
+      {
+        "trial_id": "brush_Pose3_Exp7",
+        "object": "brush",
+        "frame": {
+          "ap": 0.5527091372942681,
+          "f1": 0.7126436781609196,
+          "prevalence": 0.4452054794520548,
+          "precision": 0.5688073394495413,
+          "recall": 0.9538461538461539,
+          "brier": 0.2704847610567286,
+          "tp": 124,
+          "fp": 94,
+          "fn": 6,
+          "n": 292,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0,
+          "event_f1": 1.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0,
+            0.16656875610351562,
+            0.633552074432373
+          ],
+          "detected_latency_sec_mean": 0.2667069435119629,
+          "duration_sec": 9.727540731430054
+        }
+      },
+      {
+        "trial_id": "brush_Pose3_Exp8",
+        "object": "brush",
+        "frame": {
+          "ap": 0.9274220032840723,
+          "f1": 0.5882352941176471,
+          "prevalence": 0.14018691588785046,
+          "precision": 0.4166666666666667,
+          "recall": 1.0,
+          "brier": 0.08715820927589217,
+          "tp": 15,
+          "fp": 21,
+          "fn": 0,
+          "n": 107,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0,
+          "event_f1": 1.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 3.561094284057617
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose1_Exp7",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.6343673260317215,
+          "f1": 0.7101123595505618,
+          "prevalence": 0.5264623955431755,
+          "precision": 0.6171875,
+          "recall": 0.8359788359788359,
+          "brier": 0.25625960571798084,
+          "tp": 158,
+          "fp": 98,
+          "fn": 31,
+          "n": 359,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 1,
+          "event_f1": 0.6666666666666666,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 11.95963168144226
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose1_Exp8",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.48845129620414907,
+          "f1": 0.6069246435845214,
+          "prevalence": 0.3406432748538012,
+          "precision": 0.5775193798449613,
+          "recall": 0.6394849785407726,
+          "brier": 0.2306721329802848,
+          "tp": 149,
+          "fp": 109,
+          "fn": 84,
+          "n": 684,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 3,
+          "event_fp": 1,
+          "event_fn": 1,
+          "event_f1": 0.75,
+          "false_alarms_per_min": 2.6323057468251214,
+          "detected_latencies_sec": [
+            0.0,
+            0.0,
+            0.10043811798095703
+          ],
+          "detected_latency_sec_mean": 0.03347937266031901,
+          "duration_sec": 22.793704748153687
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose2_Exp7",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.6836069257538504,
+          "f1": 0.8111455108359134,
+          "prevalence": 0.4309859154929577,
+          "precision": 0.7705882352941177,
+          "recall": 0.8562091503267973,
+          "brier": 0.17283481714479862,
+          "tp": 131,
+          "fp": 39,
+          "fn": 22,
+          "n": 355,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 2,
+          "event_fp": 6,
+          "event_fn": 0,
+          "event_f1": 0.4,
+          "false_alarms_per_min": 30.43586382353123,
+          "detected_latencies_sec": [
+            0.0,
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 11.828151226043701
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose2_Exp8",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.5507559036909379,
+          "f1": 0.7914893617021277,
+          "prevalence": 0.36789297658862874,
+          "precision": 0.744,
+          "recall": 0.8454545454545455,
+          "brier": 0.23946308571431096,
+          "tp": 93,
+          "fp": 32,
+          "fn": 17,
+          "n": 299,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 1,
+          "event_f1": 0.6666666666666666,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 9.959246158599854
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose3_Exp7",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.3747320190681633,
+          "f1": 0.5373563218390804,
+          "prevalence": 0.31309904153354634,
+          "precision": 0.374,
+          "recall": 0.9540816326530612,
+          "brier": 0.3464147797515489,
+          "tp": 187,
+          "fp": 313,
+          "fn": 9,
+          "n": 626,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 5,
+          "event_f1": 0.4444444444444444,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0,
+            0.29985904693603516
+          ],
+          "detected_latency_sec_mean": 0.14992952346801758,
+          "duration_sec": 20.861063957214355
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose3_Exp8",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.72944323832108,
+          "f1": 0.6538461538461539,
+          "prevalence": 0.4171779141104294,
+          "precision": 0.4857142857142857,
+          "recall": 1.0,
+          "brier": 0.18363151766577424,
+          "tp": 204,
+          "fp": 216,
+          "fn": 0,
+          "n": 489,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 4,
+          "event_f1": 0.3333333333333333,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 16.29474401473999
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose1_Exp7",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.30127157226266277,
+          "f1": 0.2777777777777778,
+          "prevalence": 0.03672316384180791,
+          "precision": 0.21739130434782608,
+          "recall": 0.38461538461538464,
+          "brier": 0.04214026488229025,
+          "tp": 10,
+          "fp": 36,
+          "fn": 16,
+          "n": 708,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 1,
+          "event_fn": 0,
+          "event_f1": 0.6666666666666666,
+          "false_alarms_per_min": 2.542974534052942,
+          "detected_latencies_sec": [
+            0.5335676670074463
+          ],
+          "detected_latency_sec_mean": 0.5335676670074463,
+          "duration_sec": 23.59441637992859
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose1_Exp8",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.3674183825356938,
+          "f1": 0.5518987341772152,
+          "prevalence": 0.3177842565597668,
+          "precision": 0.3811188811188811,
+          "recall": 1.0,
+          "brier": 0.26024059672761357,
+          "tp": 218,
+          "fp": 354,
+          "fn": 0,
+          "n": 686,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 1,
+          "event_fn": 1,
+          "event_f1": 0.5,
+          "false_alarms_per_min": 2.624570319552275,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 22.86088490486145
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose2_Exp7",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.09403823829846464,
+          "f1": 0.0,
+          "prevalence": 0.06158357771260997,
+          "precision": 0.0,
+          "recall": 0.0,
+          "brier": 0.06127171299348871,
+          "tp": 0,
+          "fp": 0,
+          "fn": 42,
+          "n": 682,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 0,
+          "event_fp": 0,
+          "event_fn": 3,
+          "event_f1": 0.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [],
+          "detected_latency_sec_mean": null,
+          "duration_sec": 22.727771282196045
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose2_Exp8",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.6750688167395502,
+          "f1": 0.5245901639344263,
+          "prevalence": 0.16455696202531644,
+          "precision": 0.7272727272727273,
+          "recall": 0.41025641025641024,
+          "brier": 0.11273383723434127,
+          "tp": 16,
+          "fp": 6,
+          "fn": 23,
+          "n": 237,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 1,
+          "event_fn": 0,
+          "event_f1": 0.6666666666666666,
+          "false_alarms_per_min": 7.600206873484783,
+          "detected_latencies_sec": [
+            0.6665084362030029
+          ],
+          "detected_latency_sec_mean": 0.6665084362030029,
+          "duration_sec": 7.894521951675415
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose3_Exp7",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.649701320873392,
+          "f1": 0.6118326118326118,
+          "prevalence": 0.3490427098674521,
+          "precision": 0.4649122807017544,
+          "recall": 0.8945147679324894,
+          "brier": 0.22677292581974087,
+          "tp": 212,
+          "fp": 244,
+          "fn": 25,
+          "n": 679,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 3,
+          "event_fp": 17,
+          "event_fn": 0,
+          "event_f1": 0.2608695652173913,
+          "false_alarms_per_min": 45.077108143080146,
+          "detected_latencies_sec": [
+            0.0,
+            4.466670751571655,
+            0.1667778491973877
+          ],
+          "detected_latency_sec_mean": 1.5444828669230144,
+          "duration_sec": 22.627893447875977
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose3_Exp8",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.7961861889092329,
+          "f1": 0.5216374269005848,
+          "prevalence": 0.31721194879089615,
+          "precision": 0.3528481012658228,
+          "recall": 1.0,
+          "brier": 0.2751913553214149,
+          "tp": 223,
+          "fp": 409,
+          "fn": 0,
+          "n": 703,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 2,
+          "event_f1": 0.5,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 23.427812576293945
+        }
+      }
+    ]
+  },
+  "test": {
+    "frame": {
+      "ap": 0.49108702293795237,
+      "f1": 0.543376790600354,
+      "prevalence": 0.29594272076372313,
+      "precision": 0.41120584652862363,
+      "recall": 0.8007590132827325,
+      "brier": 0.2199677320846489,
+      "tp": 1688,
+      "fp": 2417,
+      "fn": 420,
+      "n": 7123,
+      "threshold": 0.21204978227615356
+    },
+    "event": {
+      "event_tp": 22,
+      "event_fp": 15,
+      "event_fn": 18,
+      "event_f1": 0.5714285714285714,
+      "false_alarms_per_min": 3.7915266828319076,
+      "detected_latency_sec_mean": 0.3726996833627874,
+      "detected_latencies_sec": [
+        0.0,
+        0.0,
+        0.19996404647827148,
+        0.0,
+        0.0665886402130127,
+        0.0,
+        0.0,
+        1.0001847743988037,
+        0.0,
+        0.16630125045776367,
+        0.0,
+        0.39972829818725586,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.200131893157959,
+        0.0,
+        0.0,
+        0.16649413108825684,
+        0.0
+      ],
+      "duration_sec": 237.37140083312988
+    },
+    "trials": [
+      {
+        "trial_id": "brush_Pose1_Exp10",
+        "object": "brush",
+        "frame": {
+          "ap": 0.5557512613286537,
+          "f1": 0.6222222222222222,
+          "prevalence": 0.13861386138613863,
+          "precision": 0.45161290322580644,
+          "recall": 1.0,
+          "brier": 0.09079834388196889,
+          "tp": 14,
+          "fp": 17,
+          "fn": 0,
+          "n": 101,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0,
+          "event_f1": 1.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 3.3611581325531006
+        }
+      },
+      {
+        "trial_id": "brush_Pose1_Exp9",
+        "object": "brush",
+        "frame": {
+          "ap": 0.2182674468388754,
+          "f1": 0.3076923076923077,
+          "prevalence": 0.07777777777777778,
+          "precision": 0.1875,
+          "recall": 0.8571428571428571,
+          "brier": 0.13652872743536332,
+          "tp": 6,
+          "fp": 26,
+          "fn": 1,
+          "n": 90,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0,
+          "event_f1": 1.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 2.9944820404052734
+        }
+      },
+      {
+        "trial_id": "brush_Pose2_Exp10",
+        "object": "brush",
+        "frame": {
+          "ap": 0.8055201668277878,
+          "f1": 0.8524590163934426,
+          "prevalence": 0.2578125,
+          "precision": 0.9285714285714286,
+          "recall": 0.7878787878787878,
+          "brier": 0.10316463494805891,
+          "tp": 26,
+          "fp": 2,
+          "fn": 7,
+          "n": 128,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 1,
+          "event_fn": 0,
+          "event_f1": 0.6666666666666666,
+          "false_alarms_per_min": 14.080968653874937,
+          "detected_latencies_sec": [
+            0.19996404647827148
+          ],
+          "detected_latency_sec_mean": 0.19996404647827148,
+          "duration_sec": 4.261070489883423
+        }
+      },
+      {
+        "trial_id": "brush_Pose2_Exp9",
+        "object": "brush",
+        "frame": {
+          "ap": 0.617445620223398,
+          "f1": 0.3333333333333333,
+          "prevalence": 0.08411214953271028,
+          "precision": 0.2,
+          "recall": 1.0,
+          "brier": 0.10784277245617856,
+          "tp": 9,
+          "fp": 36,
+          "fn": 0,
+          "n": 107,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 4,
+          "event_fn": 0,
+          "event_f1": 0.3333333333333333,
+          "false_alarms_per_min": 67.39108889481295,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 3.5613017082214355
+        }
+      },
+      {
+        "trial_id": "brush_Pose3_Exp10",
+        "object": "brush",
+        "frame": {
+          "ap": 0.5771649085165982,
+          "f1": 0.38095238095238093,
+          "prevalence": 0.08080808080808081,
+          "precision": 0.3076923076923077,
+          "recall": 0.5,
+          "brier": 0.05835818784831261,
+          "tp": 4,
+          "fp": 9,
+          "fn": 4,
+          "n": 99,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 1,
+          "event_fn": 1,
+          "event_f1": 0.5,
+          "false_alarms_per_min": 18.21172043778775,
+          "detected_latencies_sec": [
+            0.0665886402130127
+          ],
+          "detected_latency_sec_mean": 0.0665886402130127,
+          "duration_sec": 3.294581651687622
+        }
+      },
+      {
+        "trial_id": "brush_Pose3_Exp9",
+        "object": "brush",
+        "frame": {
+          "ap": 0.3617082341092488,
+          "f1": 0.17297297297297298,
+          "prevalence": 0.46060606060606063,
+          "precision": 0.48484848484848486,
+          "recall": 0.10526315789473684,
+          "brier": 0.4432239961267924,
+          "tp": 16,
+          "fp": 17,
+          "fn": 136,
+          "n": 330,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0,
+          "event_f1": 1.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0,
+            0.0,
+            1.0001847743988037
+          ],
+          "detected_latency_sec_mean": 0.33339492479960126,
+          "duration_sec": 10.99442172050476
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose1_Exp10",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.7252473393468818,
+          "f1": 0.6208651399491094,
+          "prevalence": 0.3770491803278688,
+          "precision": 0.45778611632270166,
+          "recall": 0.9644268774703557,
+          "brier": 0.20923437886669083,
+          "tp": 244,
+          "fp": 289,
+          "fn": 9,
+          "n": 671,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 3,
+          "event_fp": 1,
+          "event_fn": 1,
+          "event_f1": 0.75,
+          "false_alarms_per_min": 2.682455352997221,
+          "detected_latencies_sec": [
+            0.0,
+            0.16630125045776367,
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.05543375015258789,
+          "duration_sec": 22.36756706237793
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose1_Exp9",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.9425467359853655,
+          "f1": 0.6659167604049494,
+          "prevalence": 0.4476744186046512,
+          "precision": 0.5094664371772806,
+          "recall": 0.961038961038961,
+          "brier": 0.1908189202956048,
+          "tp": 296,
+          "fp": 285,
+          "fn": 12,
+          "n": 688,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 1,
+          "event_fn": 3,
+          "event_f1": 0.3333333333333333,
+          "false_alarms_per_min": 2.61694637595419,
+          "detected_latencies_sec": [
+            0.39972829818725586
+          ],
+          "detected_latency_sec_mean": 0.39972829818725586,
+          "duration_sec": 22.927485466003418
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose2_Exp10",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.5431365744073754,
+          "f1": 0.6285714285714286,
+          "prevalence": 0.20909090909090908,
+          "precision": 0.46808510638297873,
+          "recall": 0.9565217391304348,
+          "brier": 0.14994742789571663,
+          "tp": 22,
+          "fp": 25,
+          "fn": 1,
+          "n": 110,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0,
+          "event_f1": 1.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 3.6579785346984863
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose2_Exp9",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.0,
+          "f1": 0.0,
+          "prevalence": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "brier": 0.011336930888008682,
+          "tp": 0,
+          "fp": 9,
+          "fn": 0,
+          "n": 627,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 0,
+          "event_fp": 1,
+          "event_fn": 0,
+          "event_f1": 0.0,
+          "false_alarms_per_min": 2.8681839168613363,
+          "detected_latencies_sec": [],
+          "detected_latency_sec_mean": null,
+          "duration_sec": 20.91916060447693
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose3_Exp10",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.49218883056997875,
+          "f1": 0.6206088992974239,
+          "prevalence": 0.40119760479041916,
+          "precision": 0.4522184300341297,
+          "recall": 0.9888059701492538,
+          "brier": 0.23811483330970712,
+          "tp": 265,
+          "fp": 321,
+          "fn": 3,
+          "n": 668,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 3,
+          "event_f1": 0.4,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 22.261112451553345
+        }
+      },
+      {
+        "trial_id": "screwDriver_Pose3_Exp9",
+        "object": "screwDriver",
+        "frame": {
+          "ap": 0.7008101489768441,
+          "f1": 0.5755395683453237,
+          "prevalence": 0.35346097201767307,
+          "precision": 0.40404040404040403,
+          "recall": 1.0,
+          "brier": 0.19267974736528712,
+          "tp": 240,
+          "fp": 354,
+          "fn": 0,
+          "n": 679,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 6,
+          "event_f1": 0.25,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 22.62770962715149
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose1_Exp10",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.8219406023137765,
+          "f1": 0.325,
+          "prevalence": 0.17005813953488372,
+          "precision": 0.19402985074626866,
+          "recall": 1.0,
+          "brier": 0.40871363264870925,
+          "tp": 117,
+          "fp": 486,
+          "fn": 0,
+          "n": 688,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 2,
+          "event_f1": 0.5,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 22.938194274902344
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose1_Exp9",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.9803872526940517,
+          "f1": 0.9151670951156813,
+          "prevalence": 0.6438848920863309,
+          "precision": 0.8476190476190476,
+          "recall": 0.994413407821229,
+          "brier": 0.0717225078803583,
+          "tp": 178,
+          "fp": 32,
+          "fn": 1,
+          "n": 278,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 1,
+          "event_fn": 0,
+          "event_f1": 0.6666666666666666,
+          "false_alarms_per_min": 6.478803062240581,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 9.260969877243042
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose2_Exp10",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.5382717020176212,
+          "f1": 0.30666666666666664,
+          "prevalence": 0.6321525885558583,
+          "precision": 0.6764705882352942,
+          "recall": 0.19827586206896552,
+          "brier": 0.5526270473424696,
+          "tp": 46,
+          "fp": 22,
+          "fn": 186,
+          "n": 367,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 1,
+          "event_fn": 0,
+          "event_f1": 0.6666666666666666,
+          "false_alarms_per_min": 4.906865994786979,
+          "detected_latencies_sec": [
+            6.200131893157959
+          ],
+          "detected_latency_sec_mean": 6.200131893157959,
+          "duration_sec": 12.227764129638672
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose2_Exp9",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.19172219410379565,
+          "f1": 0.4444444444444444,
+          "prevalence": 0.09345794392523364,
+          "precision": 0.2857142857142857,
+          "recall": 1.0,
+          "brier": 0.21988114559260144,
+          "tp": 10,
+          "fp": 25,
+          "fn": 0,
+          "n": 107,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0,
+          "event_f1": 1.0,
+          "false_alarms_per_min": 0.0,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 3.5610547065734863
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose3_Exp10",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.34475696534903266,
+          "f1": 0.5032822757111597,
+          "prevalence": 0.17467248908296942,
+          "precision": 0.34124629080118696,
+          "recall": 0.9583333333333334,
+          "brier": 0.1997667908383116,
+          "tp": 115,
+          "fp": 222,
+          "fn": 5,
+          "n": 687,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 2,
+          "event_fp": 2,
+          "event_fn": 1,
+          "event_f1": 0.5714285714285714,
+          "false_alarms_per_min": 5.241456016517013,
+          "detected_latencies_sec": [
+            0.0,
+            0.16649413108825684
+          ],
+          "detected_latency_sec_mean": 0.08324706554412842,
+          "duration_sec": 22.894401788711548
+        }
+      },
+      {
+        "trial_id": "SpoolSolder_Pose3_Exp9",
+        "object": "SpoolSolder",
+        "frame": {
+          "ap": 0.6807014566322435,
+          "f1": 0.3516483516483517,
+          "prevalence": 0.19340974212034384,
+          "precision": 0.25,
+          "recall": 0.5925925925925926,
+          "brier": 0.17005567657663143,
+          "tp": 80,
+          "fp": 240,
+          "fn": 55,
+          "n": 698,
+          "threshold": 0.21204978227615356
+        },
+        "event": {
+          "event_tp": 1,
+          "event_fp": 2,
+          "event_fn": 1,
+          "event_f1": 0.4,
+          "false_alarms_per_min": 5.158852555832552,
+          "detected_latencies_sec": [
+            0.0
+          ],
+          "detected_latency_sec_mean": 0.0,
+          "duration_sec": 23.26098656654358
+        }
+      }
+    ]
+  },
+  "inference": {
+    "three_complete_pass_seconds": [
+      0.003159899963065982,
+      0.002181100018788129,
+      0.0021497999550774693
+    ],
+    "median_pass_seconds": 0.002181100018788129,
+    "scored_real_endpoints": 7138,
+    "definition": "batched128-step chunks including transfer; unfused implementation-specific throughput, not streaming control latency"
+  }
+}

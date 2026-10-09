@@ -1,0 +1,10 @@
+# Tested package versions; Python 3.11 on Windows.
+# Install a suitable PyTorch build separately (CPU or CUDA); see the Chinese guide.
+numpy==2.4.6
+scipy==1.16.3
+scikit-learn==1.8.0
+einops==0.8.2
+requests==2.32.5
+pyarrow==23.0.0
+h5py==3.16.0
+matplotlib==3.10.7

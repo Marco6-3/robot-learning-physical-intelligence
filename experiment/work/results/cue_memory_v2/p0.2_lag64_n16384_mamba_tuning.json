@@ -1,0 +1,91 @@
+{
+  "selected_lr": 0.001,
+  "trials": [
+    {
+      "lr": 0.001,
+      "model_config": {
+        "name": "mamba",
+        "input_dim": 8,
+        "width": 34,
+        "depth": 2,
+        "d_state": 8,
+        "expand": 2,
+        "d_conv": 4
+      },
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.5539260506629944,
+          "val_ap": 0.5573376308748671
+        },
+        {
+          "step": 200,
+          "train_loss": 0.376617431640625,
+          "val_ap": 0.5221959037039832
+        },
+        {
+          "step": 300,
+          "train_loss": 0.40044891834259033,
+          "val_ap": 0.5274661084875111
+        },
+        {
+          "step": 400,
+          "train_loss": 0.6063054800033569,
+          "val_ap": 0.5099762216548083
+        }
+      ],
+      "best_val_ap": 0.5573376308748671,
+      "best_step": 100,
+      "parameters": 19449,
+      "seconds": 7.977331600035541,
+      "peak_allocated_bytes": 437603840,
+      "pos_weight": 3.900987148284912,
+      "steps": 400,
+      "batch": 32,
+      "device": "cuda"
+    },
+    {
+      "lr": 0.003,
+      "model_config": {
+        "name": "mamba",
+        "input_dim": 8,
+        "width": 34,
+        "depth": 2,
+        "d_state": 8,
+        "expand": 2,
+        "d_conv": 4
+      },
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.5056579113006592,
+          "val_ap": 0.5368729183320358
+        },
+        {
+          "step": 200,
+          "train_loss": 0.35711532831192017,
+          "val_ap": 0.5465006120601599
+        },
+        {
+          "step": 300,
+          "train_loss": 0.3915645182132721,
+          "val_ap": 0.5309784383131865
+        },
+        {
+          "step": 400,
+          "train_loss": 0.6078754663467407,
+          "val_ap": 0.5271045933243808
+        }
+      ],
+      "best_val_ap": 0.5465006120601599,
+      "best_step": 200,
+      "parameters": 19449,
+      "seconds": 7.959341100009624,
+      "peak_allocated_bytes": 437603840,
+      "pos_weight": 3.900987148284912,
+      "steps": 400,
+      "batch": 32,
+      "device": "cuda"
+    }
+  ]
+}

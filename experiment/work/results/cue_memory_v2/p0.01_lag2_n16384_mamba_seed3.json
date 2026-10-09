@@ -1,0 +1,78 @@
+{
+  "task": "single-cue-one-bit-memory-v2",
+  "rate": 0.01,
+  "lag": 2,
+  "n_train": 16384,
+  "model": "mamba",
+  "seed": 3,
+  "parameters": 19449,
+  "config": {
+    "name": "mamba",
+    "input_dim": 8,
+    "width": 34,
+    "depth": 2,
+    "d_state": 8,
+    "expand": 2,
+    "d_conv": 4
+  },
+  "metrics": {
+    "ap": 0.6585517622005573,
+    "f1": 0.6779661016949152,
+    "prevalence": 0.00958251953125,
+    "precision": 0.6091370558375635,
+    "recall": 0.7643312101910829,
+    "brier": 0.010345825775563824,
+    "tp": 120,
+    "fp": 77,
+    "fn": 37,
+    "n": 16384,
+    "threshold": 0.9929613471031189,
+    "query_ap": 0.6585517622005573,
+    "query_n": 345,
+    "cue_shuffled_ap": 0.468566553148992,
+    "cue_shuffled_query_ap": 0.468566553148992
+  },
+  "training": {
+    "trace": [
+      {
+        "step": 100,
+        "train_loss": 0.005501940846443176,
+        "val_ap": 0.513268891145788
+      },
+      {
+        "step": 200,
+        "train_loss": 0.0029794126749038696,
+        "val_ap": 0.48497970297800486
+      },
+      {
+        "step": 300,
+        "train_loss": 0.17299382388591766,
+        "val_ap": 0.6054828618432021
+      },
+      {
+        "step": 400,
+        "train_loss": 0.0013063102960586548,
+        "val_ap": 0.8299043463976966
+      }
+    ],
+    "best_val_ap": 0.8299043463976966,
+    "best_step": 400,
+    "model_config": {
+      "name": "mamba",
+      "input_dim": 8,
+      "width": 34,
+      "depth": 2,
+      "d_state": 8,
+      "expand": 2,
+      "d_conv": 4
+    },
+    "parameters": 19449,
+    "seconds": 7.969610100029968,
+    "peak_allocated_bytes": 437603840,
+    "pos_weight": 95.37647247314453,
+    "steps": 400,
+    "batch": 32,
+    "lr": 0.003,
+    "device": "cuda"
+  }
+}

@@ -1,0 +1,5 @@
+﻿arm,metric,contrast,estimate,lower,upper,undefined_draws,confidence,primary,scope
+direct,ap,gru_minus_mamba,0.2923918094835243,0.09527297510518015,0.4919979305555083,0,0.95,False,descriptive architecture contrast within fixed training path
+direct,query_ap,gru_minus_mamba,0.2923914111240784,0.09527297339575215,0.49199776994076283,0,0.95,False,descriptive architecture contrast within fixed training path
+curriculum,ap,gru_minus_mamba,0.09957528350554523,0.0,0.29949303557547774,0,0.95,False,descriptive architecture contrast within fixed training path
+curriculum,query_ap,gru_minus_mamba,0.09957528350554523,0.0,0.29949303557547774,0,0.95,False,descriptive architecture contrast within fixed training path

@@ -1,0 +1,91 @@
+{
+  "selected_lr": 0.001,
+  "trials": [
+    {
+      "lr": 0.001,
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.01213349774479866,
+          "val_ap": 0.9999989004322805
+        },
+        {
+          "step": 200,
+          "train_loss": 0.00477509293705225,
+          "val_ap": 1.0
+        },
+        {
+          "step": 300,
+          "train_loss": 0.002580493688583374,
+          "val_ap": 1.0
+        },
+        {
+          "step": 400,
+          "train_loss": 0.001614283537492156,
+          "val_ap": 1.0
+        }
+      ],
+      "best_val_ap": 1.0,
+      "best_step": 200,
+      "model_config": {
+        "name": "mamba",
+        "input_dim": 8,
+        "width": 34,
+        "depth": 2,
+        "d_state": 8,
+        "expand": 2,
+        "d_conv": 4
+      },
+      "parameters": 19449,
+      "seconds": 8.136749600002076,
+      "peak_allocated_bytes": 183275520,
+      "pos_weight": 3.724336862564087,
+      "steps": 400,
+      "batch": 16,
+      "device": "cuda"
+    },
+    {
+      "lr": 0.003,
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.0024963573087006807,
+          "val_ap": 1.0
+        },
+        {
+          "step": 200,
+          "train_loss": 0.0009098523296415806,
+          "val_ap": 1.0
+        },
+        {
+          "step": 300,
+          "train_loss": 0.00047390826512128115,
+          "val_ap": 0.9999999999999999
+        },
+        {
+          "step": 400,
+          "train_loss": 0.0002905486326199025,
+          "val_ap": 1.0
+        }
+      ],
+      "best_val_ap": 1.0,
+      "best_step": 100,
+      "model_config": {
+        "name": "mamba",
+        "input_dim": 8,
+        "width": 34,
+        "depth": 2,
+        "d_state": 8,
+        "expand": 2,
+        "d_conv": 4
+      },
+      "parameters": 19449,
+      "seconds": 6.723719700006768,
+      "peak_allocated_bytes": 183275520,
+      "pos_weight": 3.724336862564087,
+      "steps": 400,
+      "batch": 16,
+      "device": "cuda"
+    }
+  ]
+}

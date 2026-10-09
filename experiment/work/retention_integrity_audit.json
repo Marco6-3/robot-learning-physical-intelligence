@@ -1,0 +1,289 @@
+{
+  "checked_at_utc": "2026-10-09T13:25:10.868381+00:00",
+  "hashes": [
+    {
+      "path": "outputs\\补充协议_记忆训练路径.md",
+      "sha256": "90c3df11727ee6f7b8245b1bc1e10f45dd4287526af3dc7f1ba5a41cbe8f68c7",
+      "matches_registration": true
+    },
+    {
+      "path": "work\\experiment\\retention_curriculum.py",
+      "sha256": "019e749db3044348b528ce5dcad36951f8b363f55e2eb842c2e744c002bee595",
+      "matches_registration": true
+    },
+    {
+      "path": "work\\experiment\\models.py",
+      "sha256": "795768517710a37f35d79759c994ef2348c62da5b194c4a1ac23bfec961541fd",
+      "matches_registration": true
+    },
+    {
+      "path": "work\\experiment\\common.py",
+      "sha256": "c2dee533b25f1e901f0fbdf646cf352fee7282dc1702ee268f46b59d7aea13bb",
+      "matches_registration": true
+    },
+    {
+      "path": "work\\experiment\\analyze_retention_curriculum.py",
+      "sha256": "86a15a6017c053999ee308f40da4e3f8070f23be49a85ba7d3527400aa622241",
+      "matches_registration": true
+    }
+  ],
+  "counts": {
+    "tuning": 8,
+    "final": 20
+  },
+  "checked_runs": [
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed0_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "curriculum",
+      "seed": 0,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed1_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "curriculum",
+      "seed": 1,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed2_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "curriculum",
+      "seed": 2,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed3_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "curriculum",
+      "seed": 3,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\curriculum\\final_seed4_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "curriculum",
+      "seed": 4,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\curriculum\\tune_seed901_lr0.001\\result.json",
+      "phase": "tuning",
+      "model": "gru",
+      "arm": "curriculum",
+      "seed": 901,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\curriculum\\tune_seed901_lr0.003\\result.json",
+      "phase": "tuning",
+      "model": "gru",
+      "arm": "curriculum",
+      "seed": 901,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\direct\\final_seed0_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "direct",
+      "seed": 0,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\direct\\final_seed1_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "direct",
+      "seed": 1,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\direct\\final_seed2_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "direct",
+      "seed": 2,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\direct\\final_seed3_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "direct",
+      "seed": 3,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\direct\\final_seed4_lr0.003\\result.json",
+      "phase": "final",
+      "model": "gru",
+      "arm": "direct",
+      "seed": 4,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\direct\\tune_seed901_lr0.001\\result.json",
+      "phase": "tuning",
+      "model": "gru",
+      "arm": "direct",
+      "seed": 901,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\gru\\direct\\tune_seed901_lr0.003\\result.json",
+      "phase": "tuning",
+      "model": "gru",
+      "arm": "direct",
+      "seed": 901,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\curriculum\\final_seed0_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "curriculum",
+      "seed": 0,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\curriculum\\final_seed1_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "curriculum",
+      "seed": 1,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\curriculum\\final_seed2_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "curriculum",
+      "seed": 2,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\curriculum\\final_seed3_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "curriculum",
+      "seed": 3,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\curriculum\\final_seed4_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "curriculum",
+      "seed": 4,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\curriculum\\tune_seed901_lr0.001\\result.json",
+      "phase": "tuning",
+      "model": "mamba",
+      "arm": "curriculum",
+      "seed": 901,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\curriculum\\tune_seed901_lr0.003\\result.json",
+      "phase": "tuning",
+      "model": "mamba",
+      "arm": "curriculum",
+      "seed": 901,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\direct\\final_seed0_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "direct",
+      "seed": 0,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\direct\\final_seed1_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "direct",
+      "seed": 1,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\direct\\final_seed2_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "direct",
+      "seed": 2,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\direct\\final_seed3_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "direct",
+      "seed": 3,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\direct\\final_seed4_lr0.003\\result.json",
+      "phase": "final",
+      "model": "mamba",
+      "arm": "direct",
+      "seed": 4,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\direct\\tune_seed901_lr0.001\\result.json",
+      "phase": "tuning",
+      "model": "mamba",
+      "arm": "direct",
+      "seed": 901,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    },
+    {
+      "path": "work\\results\\retention_curriculum\\mamba\\direct\\tune_seed901_lr0.003\\result.json",
+      "phase": "tuning",
+      "model": "mamba",
+      "arm": "direct",
+      "seed": 901,
+      "optimizer_step2400": true,
+      "all24_validation_points": true
+    }
+  ],
+  "scope": "Frozen file hashes and existing completion metadata only; no model execution or interim hypothesis analysis."
+}

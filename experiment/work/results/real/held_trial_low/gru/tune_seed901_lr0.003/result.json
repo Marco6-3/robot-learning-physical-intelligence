@@ -1,0 +1,63 @@
+{
+  "fingerprint": "39d2470afbf11ee99e6778fc1c5dfb4cd31e26fb910c8b7fd28e9b33dacbe43b",
+  "configuration": "held_trial_low",
+  "model": "gru",
+  "phase": "tune",
+  "seed": 901,
+  "lr": 0.003,
+  "parameters": 20641,
+  "training": {
+    "trace": [
+      {
+        "step": 100,
+        "train_loss": 0.5746140480041504,
+        "val_ap": 0.389675489230515
+      },
+      {
+        "step": 200,
+        "train_loss": 0.3132156729698181,
+        "val_ap": 0.37862810139537495
+      },
+      {
+        "step": 300,
+        "train_loss": 0.3223232626914978,
+        "val_ap": 0.3737909406142058
+      },
+      {
+        "step": 400,
+        "train_loss": 0.2228001207113266,
+        "val_ap": 0.43235855638468973
+      }
+    ],
+    "best_val_ap": 0.43235855638468973,
+    "best_step": 400,
+    "model_config": {
+      "name": "gru",
+      "input_dim": 54,
+      "width": 64,
+      "embed_dim": 32,
+      "depth": 1
+    },
+    "parameters": 20641,
+    "seconds": 1.5948770000250079,
+    "peak_allocated_bytes": 51246592,
+    "pos_weight": 3.2971839904785156,
+    "steps": 400,
+    "batch": 16,
+    "lr": 0.003,
+    "device": "cuda"
+  },
+  "validation": {
+    "ap": 0.43235855638468973,
+    "f1": 0.5020746887966805,
+    "prevalence": 0.2639707616128272,
+    "precision": 0.4345412993796931,
+    "recall": 0.5944618133095132,
+    "brier": 0.24311072115987428,
+    "tp": 1331,
+    "fp": 1732,
+    "fn": 908,
+    "n": 8482,
+    "threshold": 0.23649761080741882
+  }
+}

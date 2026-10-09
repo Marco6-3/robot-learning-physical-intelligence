@@ -1,0 +1,12 @@
+{
+  "registered_at_utc": "2026-10-09T11:52:52.009700+00:00",
+  "task": "single-cue-one-bit-memory-v2",
+  "protocol_sha256": "ca266e619a5474b61ff5e09841a46874d5819da0ca9a54312f19d8b43011ef65",
+  "generator_and_run_script_sha256": "0264a885ad04b2c83329d0e7f908802358e1841acdeb3275252c2ce4960c6721",
+  "models_sha256": "795768517710a37f35d79759c994ef2348c62da5b194c4a1ac23bfec961541fd",
+  "common_sha256_at_registration": "c2dee533b25f1e901f0fbdf646cf352fee7282dc1702ee268f46b59d7aea13bb",
+  "precheck_sha256": "7d4e7fbc8a023e591fdfe4029bb25ae3401c696842f09bd487e992f2b788f3f9",
+  "reason": "Identifiability audit: v1 long lag also requires dense multi-bit history; v2 holds relevant memory capacity at one bit.",
+  "results_visible_when_amendment_was_requested": "Root reported seeing v1 MLP outputs only; no learned GRU/Mamba ranking had been inspected. Model formula/numerical tests and random-model timing were already available.",
+  "training_launched": false
+}

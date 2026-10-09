@@ -1,0 +1,65 @@
+{
+  "fingerprint": "39d2470afbf11ee99e6778fc1c5dfb4cd31e26fb910c8b7fd28e9b33dacbe43b",
+  "configuration": "loo_screwDriver",
+  "model": "mamba",
+  "phase": "tune",
+  "seed": 901,
+  "lr": 0.001,
+  "parameters": 21013,
+  "training": {
+    "trace": [
+      {
+        "step": 100,
+        "train_loss": 0.4316211938858032,
+        "val_ap": 0.4555335619094069
+      },
+      {
+        "step": 200,
+        "train_loss": 0.9535117149353027,
+        "val_ap": 0.496446330021581
+      },
+      {
+        "step": 300,
+        "train_loss": 0.27231788635253906,
+        "val_ap": 0.41634960521466435
+      },
+      {
+        "step": 400,
+        "train_loss": 0.35025981068611145,
+        "val_ap": 0.38958206652532335
+      }
+    ],
+    "best_val_ap": 0.496446330021581,
+    "best_step": 200,
+    "model_config": {
+      "name": "mamba",
+      "input_dim": 54,
+      "width": 34,
+      "depth": 2,
+      "d_state": 8,
+      "expand": 2,
+      "d_conv": 4
+    },
+    "parameters": 21013,
+    "seconds": 6.4686307000229135,
+    "peak_allocated_bytes": 192896000,
+    "pos_weight": 3.97560977935791,
+    "steps": 400,
+    "batch": 16,
+    "lr": 0.001,
+    "device": "cuda"
+  },
+  "validation": {
+    "ap": 0.496446330021581,
+    "f1": 0.5643883836902317,
+    "prevalence": 0.27608695652173915,
+    "precision": 0.4020058503969912,
+    "recall": 0.9468503937007874,
+    "brier": 0.20552510959747028,
+    "tp": 962,
+    "fp": 1431,
+    "fn": 54,
+    "n": 3680,
+    "threshold": 0.05570327863097191
+  }
+}

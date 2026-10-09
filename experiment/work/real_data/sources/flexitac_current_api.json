@@ -1,0 +1,152 @@
+{
+  "_id": "69efb0e53c682bd533a39484",
+  "id": "Tna001/tactile_test_tube_pyflexitac",
+  "author": "Tna001",
+  "sha": "ebd3c711d678aa18bfc7f6a0a1e894104c8c1ea4",
+  "lastModified": "2026-04-27T21:19:29.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:robotics",
+    "license:apache-2.0",
+    "size_categories:10K<n<100K",
+    "format:parquet",
+    "modality:tabular",
+    "modality:timeseries",
+    "modality:video",
+    "library:datasets",
+    "library:dask",
+    "library:polars",
+    "library:mlcroissant",
+    "region:us",
+    "LeRobot"
+  ],
+  "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so100_tactile_follower\",\n    \"total_episodes\": 64,\n    \"total_frames\": 75041,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:64\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\"… See the full description on the dataset page: https://huggingface.co/datasets/Tna001/tactile_test_tube_pyflexitac.",
+  "downloads": 124,
+  "likes": 1,
+  "cardData": {
+    "license": "apache-2.0",
+    "task_categories": [
+      "robotics"
+    ],
+    "tags": [
+      "LeRobot"
+    ],
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": "data/*/*.parquet"
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/chunk-000/file-000.parquet"
+    },
+    {
+      "rfilename": "data/chunk-000/file-001.parquet"
+    },
+    {
+      "rfilename": "data/chunk-000/file-002.parquet"
+    },
+    {
+      "rfilename": "data/chunk-000/file-003.parquet"
+    },
+    {
+      "rfilename": "data/chunk-000/file-004.parquet"
+    },
+    {
+      "rfilename": "data/chunk-000/file-005.parquet"
+    },
+    {
+      "rfilename": "data/chunk-000/file-006.parquet"
+    },
+    {
+      "rfilename": "data/chunk-000/file-007.parquet"
+    },
+    {
+      "rfilename": "data/chunk-000/file-008.parquet"
+    },
+    {
+      "rfilename": "data/chunk-000/file-009.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-000.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-001.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-002.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-003.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-004.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-005.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-006.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-007.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-008.parquet"
+    },
+    {
+      "rfilename": "meta/episodes/chunk-000/file-009.parquet"
+    },
+    {
+      "rfilename": "meta/info.json"
+    },
+    {
+      "rfilename": "meta/stats.json"
+    },
+    {
+      "rfilename": "meta/tasks.parquet"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-000.mp4"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-001.mp4"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-002.mp4"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-003.mp4"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-004.mp4"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-005.mp4"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-006.mp4"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-007.mp4"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-008.mp4"
+    },
+    {
+      "rfilename": "videos/observation.images.top/chunk-000/file-009.mp4"
+    }
+  ],
+  "createdAt": "2026-04-27T18:54:29.000Z",
+  "usedStorage": 284059202
+}

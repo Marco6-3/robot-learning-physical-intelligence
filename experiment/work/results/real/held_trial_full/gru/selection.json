@@ -1,0 +1,15 @@
+{
+  "fingerprint": "39d2470afbf11ee99e6778fc1c5dfb4cd31e26fb910c8b7fd28e9b33dacbe43b",
+  "selected_lr": 0.001,
+  "rule": "maximum validationAP tune_seed901, firstlistedlr exacttie",
+  "candidates": [
+    {
+      "lr": 0.001,
+      "validation_ap": 0.49730298450262317
+    },
+    {
+      "lr": 0.003,
+      "validation_ap": 0.4885433770829233
+    }
+  ]
+}

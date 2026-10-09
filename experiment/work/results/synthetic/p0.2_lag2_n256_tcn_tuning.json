@@ -1,0 +1,87 @@
+{
+  "selected_lr": 0.001,
+  "trials": [
+    {
+      "lr": 0.001,
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.001034691696986556,
+          "val_ap": 1.0
+        },
+        {
+          "step": 200,
+          "train_loss": 0.0002453910419717431,
+          "val_ap": 1.0
+        },
+        {
+          "step": 300,
+          "train_loss": 0.00024935355759225786,
+          "val_ap": 1.0
+        },
+        {
+          "step": 400,
+          "train_loss": 0.00012785250146407634,
+          "val_ap": 1.0
+        }
+      ],
+      "best_val_ap": 1.0,
+      "best_step": 100,
+      "model_config": {
+        "name": "tcn",
+        "input_dim": 8,
+        "width": 39,
+        "depth": 4,
+        "kernel_size": 3
+      },
+      "parameters": 19111,
+      "seconds": 2.0848684000084177,
+      "peak_allocated_bytes": 24684544,
+      "pos_weight": 4.027308940887451,
+      "steps": 400,
+      "batch": 16,
+      "device": "cuda"
+    },
+    {
+      "lr": 0.003,
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 1.848877582233399e-05,
+          "val_ap": 1.0
+        },
+        {
+          "step": 200,
+          "train_loss": 4.2694473449955694e-06,
+          "val_ap": 1.0
+        },
+        {
+          "step": 300,
+          "train_loss": 6.34957632428268e-06,
+          "val_ap": 1.0
+        },
+        {
+          "step": 400,
+          "train_loss": 3.953238774556667e-06,
+          "val_ap": 0.9999999999999999
+        }
+      ],
+      "best_val_ap": 1.0,
+      "best_step": 100,
+      "model_config": {
+        "name": "tcn",
+        "input_dim": 8,
+        "width": 39,
+        "depth": 4,
+        "kernel_size": 3
+      },
+      "parameters": 19111,
+      "seconds": 2.0767421000055037,
+      "peak_allocated_bytes": 24684544,
+      "pos_weight": 4.027308940887451,
+      "steps": 400,
+      "batch": 16,
+      "device": "cuda"
+    }
+  ]
+}

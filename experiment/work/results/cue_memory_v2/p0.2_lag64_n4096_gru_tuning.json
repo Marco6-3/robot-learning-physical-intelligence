@@ -1,0 +1,87 @@
+{
+  "selected_lr": 0.003,
+  "trials": [
+    {
+      "lr": 0.001,
+      "model_config": {
+        "name": "gru",
+        "input_dim": 8,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1
+      },
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.7544077634811401,
+          "val_ap": 0.5208615959564005
+        },
+        {
+          "step": 200,
+          "train_loss": 0.37925028800964355,
+          "val_ap": 0.5147024877864523
+        },
+        {
+          "step": 300,
+          "train_loss": 0.5920977592468262,
+          "val_ap": 0.520967172746333
+        },
+        {
+          "step": 400,
+          "train_loss": 0.48631933331489563,
+          "val_ap": 0.5322925036494557
+        }
+      ],
+      "best_val_ap": 0.5322925036494557,
+      "best_step": 400,
+      "parameters": 19169,
+      "seconds": 1.296744999999646,
+      "peak_allocated_bytes": 79856128,
+      "pos_weight": 3.8530805110931396,
+      "steps": 400,
+      "batch": 32,
+      "device": "cuda"
+    },
+    {
+      "lr": 0.003,
+      "model_config": {
+        "name": "gru",
+        "input_dim": 8,
+        "width": 64,
+        "embed_dim": 32,
+        "depth": 1
+      },
+      "trace": [
+        {
+          "step": 100,
+          "train_loss": 0.6870430707931519,
+          "val_ap": 0.531489425498135
+        },
+        {
+          "step": 200,
+          "train_loss": 0.36165833473205566,
+          "val_ap": 0.5108028872048769
+        },
+        {
+          "step": 300,
+          "train_loss": 0.6416651010513306,
+          "val_ap": 0.5528979931593611
+        },
+        {
+          "step": 400,
+          "train_loss": 0.026989411562681198,
+          "val_ap": 1.0
+        }
+      ],
+      "best_val_ap": 1.0,
+      "best_step": 400,
+      "parameters": 19169,
+      "seconds": 1.3507824000553228,
+      "peak_allocated_bytes": 79856128,
+      "pos_weight": 3.8530805110931396,
+      "steps": 400,
+      "batch": 32,
+      "device": "cuda"
+    }
+  ]
+}

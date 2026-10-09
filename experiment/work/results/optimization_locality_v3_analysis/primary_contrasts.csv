@@ -1,0 +1,7 @@
+﻿contrast,definition,metric,estimate,lower,upper,undefined_draws,confidence,margin,primary,meaningful_positive_effect_supported,opposite_meaningful_effect_supported
+C1,GRU balanced - GRU uniform,ap,0.20103659952053632,0.05519166877553808,0.35929570237441294,0,0.9833333333333333,0.03,True,True,False
+C1,GRU balanced - GRU uniform,query_ap,0.19947270918788218,0.07266410751416448,0.33027051232080534,0,0.95,0.03,False,True,False
+C2,GRU conv4 uniform - GRU conv1 uniform,ap,0.37746929252293215,0.24259851795722331,0.47289410967497963,0,0.9833333333333333,0.03,True,True,False
+C2,GRU conv4 uniform - GRU conv1 uniform,query_ap,0.37903205137457274,0.2737137688901956,0.461251895923852,0,0.95,0.03,False,True,False
+C3,Mamba conv4 uniform - Mamba conv1 uniform,ap,0.4090072455924204,0.32019986733799816,0.4823312093009769,0,0.9833333333333333,0.03,True,True,False
+C3,Mamba conv4 uniform - Mamba conv1 uniform,query_ap,0.4117859102406414,0.3452028975751067,0.46438925100342426,0,0.95,0.03,False,True,False
